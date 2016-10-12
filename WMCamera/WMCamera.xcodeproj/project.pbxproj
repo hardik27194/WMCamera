@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B33FBF961DAE085C00650DD1 /* history_title_down_icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B33FBF941DAE085C00650DD1 /* history_title_down_icon.pdf */; };
-		B33FBF971DAE085C00650DD1 /* ic_wm_followme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B33FBF951DAE085C00650DD1 /* ic_wm_followme@2x.png */; };
-		B33FBF991DAE099700650DD1 /* WMCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B33FBF981DAE099700650DD1 /* WMCamera.bundle */; };
+		B33FBF9B1DAE0D3400650DD1 /* WMImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33FBF9A1DAE0D3400650DD1 /* WMImages.xcassets */; };
 		B368094F1DAC80890082206C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B368094E1DAC80890082206C /* main.m */; };
 		B36809521DAC80890082206C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809511DAC80890082206C /* AppDelegate.m */; };
 		B36809551DAC80890082206C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809541DAC80890082206C /* ViewController.m */; };
@@ -28,7 +26,6 @@
 		B36809CF1DAC83A50082206C /* WMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B368097B1DAC83A50082206C /* WMMainViewController.m */; };
 		B36809D01DAC83A50082206C /* WMPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B368097D1DAC83A50082206C /* WMPhotosViewController.m */; };
 		B36809D11DAC83A50082206C /* WMWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809801DAC83A50082206C /* WMWaterMark.m */; };
-		B36809D21DAC83A50082206C /* WMImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36809851DAC83A50082206C /* WMImages.xcassets */; };
 		B36809D31DAC83A50082206C /* WMAlbumUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809881DAC83A50082206C /* WMAlbumUtils.m */; };
 		B36809D41DAC83A50082206C /* WMImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B368098A1DAC83A50082206C /* WMImageUtils.m */; };
 		B36809D51DAC83A50082206C /* WMAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B368098E1DAC83A50082206C /* WMAlbumCell.m */; };
@@ -61,9 +58,7 @@
 /* Begin PBXFileReference section */
 		82E5B7CB18B781742CEA5A4A /* libPods-WMCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WMCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D91F5DC8486948542A1BB0 /* Pods-WMCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WMCamera/Pods-WMCamera.debug.xcconfig"; sourceTree = "<group>"; };
-		B33FBF941DAE085C00650DD1 /* history_title_down_icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = history_title_down_icon.pdf; sourceTree = "<group>"; };
-		B33FBF951DAE085C00650DD1 /* ic_wm_followme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_wm_followme@2x.png"; sourceTree = "<group>"; };
-		B33FBF981DAE099700650DD1 /* WMCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMCamera.bundle; sourceTree = "<group>"; };
+		B33FBF9A1DAE0D3400650DD1 /* WMImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WMImages.xcassets; sourceTree = "<group>"; };
 		B368094A1DAC80890082206C /* WMCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B368094E1DAC80890082206C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B36809501DAC80890082206C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,7 +92,6 @@
 		B368097F1DAC83A50082206C /* WMWaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWaterMark.h; sourceTree = "<group>"; };
 		B36809801DAC83A50082206C /* WMWaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWaterMark.m; sourceTree = "<group>"; };
 		B36809821DAC83A50082206C /* WMWatermarkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWatermarkProtocol.h; sourceTree = "<group>"; };
-		B36809851DAC83A50082206C /* WMImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WMImages.xcassets; sourceTree = "<group>"; };
 		B36809871DAC83A50082206C /* WMAlbumUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumUtils.h; sourceTree = "<group>"; };
 		B36809881DAC83A50082206C /* WMAlbumUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumUtils.m; sourceTree = "<group>"; };
 		B36809891DAC83A50082206C /* WMImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageUtils.h; sourceTree = "<group>"; };
@@ -320,7 +314,6 @@
 			isa = PBXGroup;
 			children = (
 				B36809841DAC83A50082206C /* images */,
-				B33FBF981DAE099700650DD1 /* WMCamera.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -328,9 +321,7 @@
 		B36809841DAC83A50082206C /* images */ = {
 			isa = PBXGroup;
 			children = (
-				B33FBF941DAE085C00650DD1 /* history_title_down_icon.pdf */,
-				B33FBF951DAE085C00650DD1 /* ic_wm_followme@2x.png */,
-				B36809851DAC83A50082206C /* WMImages.xcassets */,
+				B33FBF9A1DAE0D3400650DD1 /* WMImages.xcassets */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -579,12 +570,10 @@
 			files = (
 				B368095D1DAC80890082206C /* LaunchScreen.storyboard in Resources */,
 				B36809E91DAC83A50082206C /* WMWaterMarkCollectionView.xib in Resources */,
+				B33FBF9B1DAE0D3400650DD1 /* WMImages.xcassets in Resources */,
 				B36809E51DAC83A50082206C /* WMPhotoCell.xib in Resources */,
 				B368095A1DAC80890082206C /* Assets.xcassets in Resources */,
 				B36809581DAC80890082206C /* Main.storyboard in Resources */,
-				B33FBF961DAE085C00650DD1 /* history_title_down_icon.pdf in Resources */,
-				B33FBF991DAE099700650DD1 /* WMCamera.bundle in Resources */,
-				B33FBF971DAE085C00650DD1 /* ic_wm_followme@2x.png in Resources */,
 				B36809DF1DAC83A50082206C /* WMImageCollectionCell.xib in Resources */,
 				B36809DA1DAC83A50082206C /* WMAlbumView.xib in Resources */,
 				B36809CC1DAC83A50082206C /* WMCameraController.xib in Resources */,
@@ -593,7 +582,6 @@
 				B36809CA1DAC83A50082206C /* WMAlbumsController.xib in Resources */,
 				B36809D61DAC83A50082206C /* WMAlbumCell.xib in Resources */,
 				B36809DC1DAC83A50082206C /* WMCameraControlView.xib in Resources */,
-				B36809D21DAC83A50082206C /* WMImages.xcassets in Resources */,
 				B36809D81DAC83A50082206C /* WMAlbumSelectionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
