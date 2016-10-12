@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WMTabBarView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSN-wk-vix">
+                    <rect key="frame" x="0.0" y="10" width="160" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="TGp-JX-P6G"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="Library">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="RKk-zL-Rq8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGC-14-Plt">
+                    <rect key="frame" x="160" y="10" width="160" height="30"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="Camera">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="942-XS-4bz"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q2e-bH-mv3">
+                    <rect key="frame" x="159" y="15" width="2" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="2" id="V4N-gD-dAM"/>
+                        <constraint firstAttribute="height" constant="20" id="wuE-VS-VPR"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="FGC-14-Plt" firstAttribute="leading" secondItem="bSN-wk-vix" secondAttribute="trailing" id="12v-TQ-xiP"/>
+                <constraint firstItem="bSN-wk-vix" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AYR-A8-olC"/>
+                <constraint firstItem="FGC-14-Plt" firstAttribute="centerY" secondItem="bSN-wk-vix" secondAttribute="centerY" id="UsE-D3-TrZ"/>
+                <constraint firstItem="Q2e-bH-mv3" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ap0-BZ-hwx"/>
+                <constraint firstAttribute="trailing" secondItem="FGC-14-Plt" secondAttribute="trailing" id="i2f-bH-lyz"/>
+                <constraint firstItem="bSN-wk-vix" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="i69-Q7-kcP"/>
+                <constraint firstItem="FGC-14-Plt" firstAttribute="width" secondItem="bSN-wk-vix" secondAttribute="width" id="myg-ng-dF4"/>
+                <constraint firstItem="FGC-14-Plt" firstAttribute="height" secondItem="bSN-wk-vix" secondAttribute="height" id="ozb-9D-vca"/>
+                <constraint firstItem="Q2e-bH-mv3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zv8-Mw-9gr"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="363" y="248"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="vLine.png" width="1" height="20"/>
+    </resources>
+</document>

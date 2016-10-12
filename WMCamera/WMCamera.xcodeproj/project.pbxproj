@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B368094F1DAC80890082206C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B368094E1DAC80890082206C /* main.m */; };
+		B36809521DAC80890082206C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809511DAC80890082206C /* AppDelegate.m */; };
+		B36809551DAC80890082206C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809541DAC80890082206C /* ViewController.m */; };
+		B36809581DAC80890082206C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36809561DAC80890082206C /* Main.storyboard */; };
+		B368095A1DAC80890082206C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36809591DAC80890082206C /* Assets.xcassets */; };
+		B368095D1DAC80890082206C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B368095B1DAC80890082206C /* LaunchScreen.storyboard */; };
+		B36809C61DAC83A50082206C /* ALAsset+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809671DAC83A50082206C /* ALAsset+Utils.m */; };
+		B36809C71DAC83A50082206C /* ALAssetsGroup+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809691DAC83A50082206C /* ALAssetsGroup+Utils.m */; };
+		B36809C81DAC83A50082206C /* WMAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B368096D1DAC83A50082206C /* WMAbstractViewController.m */; };
+		B36809C91DAC83A50082206C /* WMAlbumsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809701DAC83A50082206C /* WMAlbumsController.m */; };
+		B36809CA1DAC83A50082206C /* WMAlbumsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809711DAC83A50082206C /* WMAlbumsController.xib */; };
+		B36809CB1DAC83A50082206C /* WMPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809731DAC83A50082206C /* WMPhotosController.m */; };
+		B36809CC1DAC83A50082206C /* WMCameraController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809751DAC83A50082206C /* WMCameraController.xib */; };
+		B36809CD1DAC83A50082206C /* WMCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809771DAC83A50082206C /* WMCameraViewController.m */; };
+		B36809CE1DAC83A50082206C /* WMImageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809791DAC83A50082206C /* WMImageEditViewController.m */; };
+		B36809CF1DAC83A50082206C /* WMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B368097B1DAC83A50082206C /* WMMainViewController.m */; };
+		B36809D01DAC83A50082206C /* WMPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B368097D1DAC83A50082206C /* WMPhotosViewController.m */; };
+		B36809D11DAC83A50082206C /* WMWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809801DAC83A50082206C /* WMWaterMark.m */; };
+		B36809D21DAC83A50082206C /* WMImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36809851DAC83A50082206C /* WMImages.xcassets */; };
+		B36809D31DAC83A50082206C /* WMAlbumUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809881DAC83A50082206C /* WMAlbumUtils.m */; };
+		B36809D41DAC83A50082206C /* WMImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B368098A1DAC83A50082206C /* WMImageUtils.m */; };
+		B36809D51DAC83A50082206C /* WMAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B368098E1DAC83A50082206C /* WMAlbumCell.m */; };
+		B36809D61DAC83A50082206C /* WMAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B368098F1DAC83A50082206C /* WMAlbumCell.xib */; };
+		B36809D71DAC83A50082206C /* WMAlbumSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809921DAC83A50082206C /* WMAlbumSelectionView.m */; };
+		B36809D81DAC83A50082206C /* WMAlbumSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809931DAC83A50082206C /* WMAlbumSelectionView.xib */; };
+		B36809D91DAC83A50082206C /* WMAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809961DAC83A50082206C /* WMAlbumView.m */; };
+		B36809DA1DAC83A50082206C /* WMAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809971DAC83A50082206C /* WMAlbumView.xib */; };
+		B36809DB1DAC83A50082206C /* WMCameraControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B368099A1DAC83A50082206C /* WMCameraControlView.m */; };
+		B36809DC1DAC83A50082206C /* WMCameraControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B368099B1DAC83A50082206C /* WMCameraControlView.xib */; };
+		B36809DD1DAC83A50082206C /* WMCircleMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = B368099E1DAC83A50082206C /* WMCircleMaskView.m */; };
+		B36809DE1DAC83A50082206C /* WMImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809A11DAC83A50082206C /* WMImageCollectionCell.m */; };
+		B36809DF1DAC83A50082206C /* WMImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809A21DAC83A50082206C /* WMImageCollectionCell.xib */; };
+		B36809E01DAC83A50082206C /* WMImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809A51DAC83A50082206C /* WMImageCropView.m */; };
+		B36809E11DAC83A50082206C /* WMImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809A81DAC83A50082206C /* WMImageViewCell.m */; };
+		B36809E21DAC83A50082206C /* WMImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809A91DAC83A50082206C /* WMImageViewCell.xib */; };
+		B36809E31DAC83A50082206C /* WMNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809AC1DAC83A50082206C /* WMNavigationBarView.m */; };
+		B36809E41DAC83A50082206C /* WMPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809AF1DAC83A50082206C /* WMPhotoCell.m */; };
+		B36809E51DAC83A50082206C /* WMPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809B01DAC83A50082206C /* WMPhotoCell.xib */; };
+		B36809E61DAC83A50082206C /* WMTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809B31DAC83A50082206C /* WMTabBarView.m */; };
+		B36809E71DAC83A50082206C /* WMTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809B41DAC83A50082206C /* WMTabBarView.xib */; };
+		B36809E81DAC83A50082206C /* WMWaterMarkCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809B71DAC83A50082206C /* WMWaterMarkCollectionView.m */; };
+		B36809E91DAC83A50082206C /* WMWaterMarkCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809B81DAC83A50082206C /* WMWaterMarkCollectionView.xib */; };
+		B36809EA1DAC83A50082206C /* WMAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809BA1DAC83A50082206C /* WMAlbum.m */; };
+		B36809EB1DAC83A50082206C /* WMCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809BC1DAC83A50082206C /* WMCamera.m */; };
+		B36809EC1DAC83A50082206C /* WMKeyConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809BF1DAC83A50082206C /* WMKeyConsts.m */; };
+		E5BAA7EECC1F4431063468E5 /* libPods-WMCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E5B7CB18B781742CEA5A4A /* libPods-WMCamera.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82E5B7CB18B781742CEA5A4A /* libPods-WMCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WMCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D91F5DC8486948542A1BB0 /* Pods-WMCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WMCamera/Pods-WMCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		B368094A1DAC80890082206C /* WMCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B368094E1DAC80890082206C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36809501DAC80890082206C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B36809511DAC80890082206C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B36809531DAC80890082206C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B36809541DAC80890082206C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B36809571DAC80890082206C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36809591DAC80890082206C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B368095C1DAC80890082206C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B368095E1DAC80890082206C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36809661DAC83A50082206C /* ALAsset+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+Utils.h"; sourceTree = "<group>"; };
+		B36809671DAC83A50082206C /* ALAsset+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+Utils.m"; sourceTree = "<group>"; };
+		B36809681DAC83A50082206C /* ALAssetsGroup+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsGroup+Utils.h"; sourceTree = "<group>"; };
+		B36809691DAC83A50082206C /* ALAssetsGroup+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsGroup+Utils.m"; sourceTree = "<group>"; };
+		B368096C1DAC83A50082206C /* WMAbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAbstractViewController.h; sourceTree = "<group>"; };
+		B368096D1DAC83A50082206C /* WMAbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAbstractViewController.m; sourceTree = "<group>"; };
+		B368096F1DAC83A50082206C /* WMAlbumsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumsController.h; sourceTree = "<group>"; };
+		B36809701DAC83A50082206C /* WMAlbumsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumsController.m; sourceTree = "<group>"; };
+		B36809711DAC83A50082206C /* WMAlbumsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumsController.xib; sourceTree = "<group>"; };
+		B36809721DAC83A50082206C /* WMPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPhotosController.h; sourceTree = "<group>"; };
+		B36809731DAC83A50082206C /* WMPhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPhotosController.m; sourceTree = "<group>"; };
+		B36809751DAC83A50082206C /* WMCameraController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMCameraController.xib; sourceTree = "<group>"; };
+		B36809761DAC83A50082206C /* WMCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCameraViewController.h; sourceTree = "<group>"; };
+		B36809771DAC83A50082206C /* WMCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCameraViewController.m; sourceTree = "<group>"; };
+		B36809781DAC83A50082206C /* WMImageEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageEditViewController.h; sourceTree = "<group>"; };
+		B36809791DAC83A50082206C /* WMImageEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMImageEditViewController.m; sourceTree = "<group>"; };
+		B368097A1DAC83A50082206C /* WMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMainViewController.h; sourceTree = "<group>"; };
+		B368097B1DAC83A50082206C /* WMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMainViewController.m; sourceTree = "<group>"; };
+		B368097C1DAC83A50082206C /* WMPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPhotosViewController.h; sourceTree = "<group>"; };
+		B368097D1DAC83A50082206C /* WMPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPhotosViewController.m; sourceTree = "<group>"; };
+		B368097F1DAC83A50082206C /* WMWaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWaterMark.h; sourceTree = "<group>"; };
+		B36809801DAC83A50082206C /* WMWaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWaterMark.m; sourceTree = "<group>"; };
+		B36809821DAC83A50082206C /* WMWatermarkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWatermarkProtocol.h; sourceTree = "<group>"; };
+		B36809851DAC83A50082206C /* WMImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WMImages.xcassets; sourceTree = "<group>"; };
+		B36809871DAC83A50082206C /* WMAlbumUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumUtils.h; sourceTree = "<group>"; };
+		B36809881DAC83A50082206C /* WMAlbumUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumUtils.m; sourceTree = "<group>"; };
+		B36809891DAC83A50082206C /* WMImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageUtils.h; sourceTree = "<group>"; };
+		B368098A1DAC83A50082206C /* WMImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMImageUtils.m; sourceTree = "<group>"; };
+		B368098D1DAC83A50082206C /* WMAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumCell.h; sourceTree = "<group>"; };
+		B368098E1DAC83A50082206C /* WMAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumCell.m; sourceTree = "<group>"; };
+		B368098F1DAC83A50082206C /* WMAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumCell.xib; sourceTree = "<group>"; };
+		B36809911DAC83A50082206C /* WMAlbumSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumSelectionView.h; sourceTree = "<group>"; };
+		B36809921DAC83A50082206C /* WMAlbumSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumSelectionView.m; sourceTree = "<group>"; };
+		B36809931DAC83A50082206C /* WMAlbumSelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumSelectionView.xib; sourceTree = "<group>"; };
+		B36809951DAC83A50082206C /* WMAlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumView.h; sourceTree = "<group>"; };
+		B36809961DAC83A50082206C /* WMAlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumView.m; sourceTree = "<group>"; };
+		B36809971DAC83A50082206C /* WMAlbumView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumView.xib; sourceTree = "<group>"; };
+		B36809991DAC83A50082206C /* WMCameraControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCameraControlView.h; sourceTree = "<group>"; };
+		B368099A1DAC83A50082206C /* WMCameraControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCameraControlView.m; sourceTree = "<group>"; };
+		B368099B1DAC83A50082206C /* WMCameraControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMCameraControlView.xib; sourceTree = "<group>"; };
+		B368099D1DAC83A50082206C /* WMCircleMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCircleMaskView.h; sourceTree = "<group>"; };
+		B368099E1DAC83A50082206C /* WMCircleMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCircleMaskView.m; sourceTree = "<group>"; };
+		B36809A01DAC83A50082206C /* WMImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageCollectionCell.h; sourceTree = "<group>"; };
+		B36809A11DAC83A50082206C /* WMImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMImageCollectionCell.m; sourceTree = "<group>"; };
+		B36809A21DAC83A50082206C /* WMImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMImageCollectionCell.xib; sourceTree = "<group>"; };
+		B36809A41DAC83A50082206C /* WMImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageCropView.h; sourceTree = "<group>"; };
+		B36809A51DAC83A50082206C /* WMImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMImageCropView.m; sourceTree = "<group>"; };
+		B36809A71DAC83A50082206C /* WMImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageViewCell.h; sourceTree = "<group>"; };
+		B36809A81DAC83A50082206C /* WMImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMImageViewCell.m; sourceTree = "<group>"; };
+		B36809A91DAC83A50082206C /* WMImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMImageViewCell.xib; sourceTree = "<group>"; };
+		B36809AB1DAC83A50082206C /* WMNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNavigationBarView.h; sourceTree = "<group>"; };
+		B36809AC1DAC83A50082206C /* WMNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNavigationBarView.m; sourceTree = "<group>"; };
+		B36809AE1DAC83A50082206C /* WMPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPhotoCell.h; sourceTree = "<group>"; };
+		B36809AF1DAC83A50082206C /* WMPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPhotoCell.m; sourceTree = "<group>"; };
+		B36809B01DAC83A50082206C /* WMPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMPhotoCell.xib; sourceTree = "<group>"; };
+		B36809B21DAC83A50082206C /* WMTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTabBarView.h; sourceTree = "<group>"; };
+		B36809B31DAC83A50082206C /* WMTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTabBarView.m; sourceTree = "<group>"; };
+		B36809B41DAC83A50082206C /* WMTabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMTabBarView.xib; sourceTree = "<group>"; };
+		B36809B61DAC83A50082206C /* WMWaterMarkCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWaterMarkCollectionView.h; sourceTree = "<group>"; };
+		B36809B71DAC83A50082206C /* WMWaterMarkCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWaterMarkCollectionView.m; sourceTree = "<group>"; };
+		B36809B81DAC83A50082206C /* WMWaterMarkCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMWaterMarkCollectionView.xib; sourceTree = "<group>"; };
+		B36809B91DAC83A50082206C /* WMAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbum.h; sourceTree = "<group>"; };
+		B36809BA1DAC83A50082206C /* WMAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbum.m; sourceTree = "<group>"; };
+		B36809BB1DAC83A50082206C /* WMCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCamera.h; sourceTree = "<group>"; };
+		B36809BC1DAC83A50082206C /* WMCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCamera.m; sourceTree = "<group>"; };
+		B36809BE1DAC83A50082206C /* WMKeyConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMKeyConsts.h; sourceTree = "<group>"; };
+		B36809BF1DAC83A50082206C /* WMKeyConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMKeyConsts.m; sourceTree = "<group>"; };
+		B36809C11DAC83A50082206C /* WMUIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUIMacros.h; sourceTree = "<group>"; };
+		B36809C31DAC83A50082206C /* WMOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMOptions.h; sourceTree = "<group>"; };
+		B36809C51DAC83A50082206C /* WMTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTypes.h; sourceTree = "<group>"; };
+		FCE84CA92383DE535361B55C /* Pods-WMCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-WMCamera/Pods-WMCamera.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36809471DAC80890082206C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BAA7EECC1F4431063468E5 /* libPods-WMCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AFADA5402B247FF8CEFA7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82E5B7CB18B781742CEA5A4A /* libPods-WMCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93AD3AE7E5D744E5004D2B38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96D91F5DC8486948542A1BB0 /* Pods-WMCamera.debug.xcconfig */,
+				FCE84CA92383DE535361B55C /* Pods-WMCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B36809411DAC80890082206C = {
+			isa = PBXGroup;
+			children = (
+				B368094C1DAC80890082206C /* WMCamera */,
+				B368094B1DAC80890082206C /* Products */,
+				93AD3AE7E5D744E5004D2B38 /* Pods */,
+				11AFADA5402B247FF8CEFA7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B368094B1DAC80890082206C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B368094A1DAC80890082206C /* WMCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B368094C1DAC80890082206C /* WMCamera */ = {
+			isa = PBXGroup;
+			children = (
+				B36809641DAC83A50082206C /* Classes */,
+				B36809501DAC80890082206C /* AppDelegate.h */,
+				B36809511DAC80890082206C /* AppDelegate.m */,
+				B36809531DAC80890082206C /* ViewController.h */,
+				B36809541DAC80890082206C /* ViewController.m */,
+				B36809561DAC80890082206C /* Main.storyboard */,
+				B36809591DAC80890082206C /* Assets.xcassets */,
+				B368095B1DAC80890082206C /* LaunchScreen.storyboard */,
+				B368095E1DAC80890082206C /* Info.plist */,
+				B368094D1DAC80890082206C /* Supporting Files */,
+			);
+			path = WMCamera;
+			sourceTree = "<group>";
+		};
+		B368094D1DAC80890082206C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B368094E1DAC80890082206C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B36809641DAC83A50082206C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B36809651DAC83A50082206C /* Categories */,
+				B368096A1DAC83A50082206C /* Controllers */,
+				B368097E1DAC83A50082206C /* Models */,
+				B36809811DAC83A50082206C /* Protocols */,
+				B36809831DAC83A50082206C /* Resources */,
+				B36809861DAC83A50082206C /* Utils */,
+				B368098B1DAC83A50082206C /* Views */,
+				B36809B91DAC83A50082206C /* WMAlbum.h */,
+				B36809BA1DAC83A50082206C /* WMAlbum.m */,
+				B36809BB1DAC83A50082206C /* WMCamera.h */,
+				B36809BC1DAC83A50082206C /* WMCamera.m */,
+				B36809BD1DAC83A50082206C /* WMConsts */,
+				B36809C01DAC83A50082206C /* WMMacros */,
+				B36809C21DAC83A50082206C /* WMOptions */,
+				B36809C41DAC83A50082206C /* WMTypes */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B36809651DAC83A50082206C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B36809661DAC83A50082206C /* ALAsset+Utils.h */,
+				B36809671DAC83A50082206C /* ALAsset+Utils.m */,
+				B36809681DAC83A50082206C /* ALAssetsGroup+Utils.h */,
+				B36809691DAC83A50082206C /* ALAssetsGroup+Utils.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B368096A1DAC83A50082206C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B368096B1DAC83A50082206C /* Abstract */,
+				B368096E1DAC83A50082206C /* Album */,
+				B36809741DAC83A50082206C /* Camera */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B368096B1DAC83A50082206C /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				B368096C1DAC83A50082206C /* WMAbstractViewController.h */,
+				B368096D1DAC83A50082206C /* WMAbstractViewController.m */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		B368096E1DAC83A50082206C /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				B368096F1DAC83A50082206C /* WMAlbumsController.h */,
+				B36809701DAC83A50082206C /* WMAlbumsController.m */,
+				B36809711DAC83A50082206C /* WMAlbumsController.xib */,
+				B36809721DAC83A50082206C /* WMPhotosController.h */,
+				B36809731DAC83A50082206C /* WMPhotosController.m */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		B36809741DAC83A50082206C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				B36809751DAC83A50082206C /* WMCameraController.xib */,
+				B36809761DAC83A50082206C /* WMCameraViewController.h */,
+				B36809771DAC83A50082206C /* WMCameraViewController.m */,
+				B36809781DAC83A50082206C /* WMImageEditViewController.h */,
+				B36809791DAC83A50082206C /* WMImageEditViewController.m */,
+				B368097A1DAC83A50082206C /* WMMainViewController.h */,
+				B368097B1DAC83A50082206C /* WMMainViewController.m */,
+				B368097C1DAC83A50082206C /* WMPhotosViewController.h */,
+				B368097D1DAC83A50082206C /* WMPhotosViewController.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		B368097E1DAC83A50082206C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B368097F1DAC83A50082206C /* WMWaterMark.h */,
+				B36809801DAC83A50082206C /* WMWaterMark.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B36809811DAC83A50082206C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B36809821DAC83A50082206C /* WMWatermarkProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B36809831DAC83A50082206C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B36809841DAC83A50082206C /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B36809841DAC83A50082206C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B36809851DAC83A50082206C /* WMImages.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B36809861DAC83A50082206C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B36809871DAC83A50082206C /* WMAlbumUtils.h */,
+				B36809881DAC83A50082206C /* WMAlbumUtils.m */,
+				B36809891DAC83A50082206C /* WMImageUtils.h */,
+				B368098A1DAC83A50082206C /* WMImageUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B368098B1DAC83A50082206C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B368098C1DAC83A50082206C /* WMAlbumCell */,
+				B36809901DAC83A50082206C /* WMAlbumSelectionView */,
+				B36809941DAC83A50082206C /* WMAlbumView */,
+				B36809981DAC83A50082206C /* WMCameraControlView */,
+				B368099C1DAC83A50082206C /* WMCircleMaskView */,
+				B368099F1DAC83A50082206C /* WMImageCollectionCell */,
+				B36809A31DAC83A50082206C /* WMImageCropView */,
+				B36809A61DAC83A50082206C /* WMImageViewCell */,
+				B36809AA1DAC83A50082206C /* WMNavigationBarView */,
+				B36809AD1DAC83A50082206C /* WMPhotoCell */,
+				B36809B11DAC83A50082206C /* WMTabBarView */,
+				B36809B51DAC83A50082206C /* WMWaterMarkCollectionView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B368098C1DAC83A50082206C /* WMAlbumCell */ = {
+			isa = PBXGroup;
+			children = (
+				B368098D1DAC83A50082206C /* WMAlbumCell.h */,
+				B368098E1DAC83A50082206C /* WMAlbumCell.m */,
+				B368098F1DAC83A50082206C /* WMAlbumCell.xib */,
+			);
+			path = WMAlbumCell;
+			sourceTree = "<group>";
+		};
+		B36809901DAC83A50082206C /* WMAlbumSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B36809911DAC83A50082206C /* WMAlbumSelectionView.h */,
+				B36809921DAC83A50082206C /* WMAlbumSelectionView.m */,
+				B36809931DAC83A50082206C /* WMAlbumSelectionView.xib */,
+			);
+			path = WMAlbumSelectionView;
+			sourceTree = "<group>";
+		};
+		B36809941DAC83A50082206C /* WMAlbumView */ = {
+			isa = PBXGroup;
+			children = (
+				B36809951DAC83A50082206C /* WMAlbumView.h */,
+				B36809961DAC83A50082206C /* WMAlbumView.m */,
+				B36809971DAC83A50082206C /* WMAlbumView.xib */,
+			);
+			path = WMAlbumView;
+			sourceTree = "<group>";
+		};
+		B36809981DAC83A50082206C /* WMCameraControlView */ = {
+			isa = PBXGroup;
+			children = (
+				B36809991DAC83A50082206C /* WMCameraControlView.h */,
+				B368099A1DAC83A50082206C /* WMCameraControlView.m */,
+				B368099B1DAC83A50082206C /* WMCameraControlView.xib */,
+			);
+			path = WMCameraControlView;
+			sourceTree = "<group>";
+		};
+		B368099C1DAC83A50082206C /* WMCircleMaskView */ = {
+			isa = PBXGroup;
+			children = (
+				B368099D1DAC83A50082206C /* WMCircleMaskView.h */,
+				B368099E1DAC83A50082206C /* WMCircleMaskView.m */,
+			);
+			path = WMCircleMaskView;
+			sourceTree = "<group>";
+		};
+		B368099F1DAC83A50082206C /* WMImageCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				B36809A01DAC83A50082206C /* WMImageCollectionCell.h */,
+				B36809A11DAC83A50082206C /* WMImageCollectionCell.m */,
+				B36809A21DAC83A50082206C /* WMImageCollectionCell.xib */,
+			);
+			path = WMImageCollectionCell;
+			sourceTree = "<group>";
+		};
+		B36809A31DAC83A50082206C /* WMImageCropView */ = {
+			isa = PBXGroup;
+			children = (
+				B36809A41DAC83A50082206C /* WMImageCropView.h */,
+				B36809A51DAC83A50082206C /* WMImageCropView.m */,
+			);
+			path = WMImageCropView;
+			sourceTree = "<group>";
+		};
+		B36809A61DAC83A50082206C /* WMImageViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B36809A71DAC83A50082206C /* WMImageViewCell.h */,
+				B36809A81DAC83A50082206C /* WMImageViewCell.m */,
+				B36809A91DAC83A50082206C /* WMImageViewCell.xib */,
+			);
+			path = WMImageViewCell;
+			sourceTree = "<group>";
+		};
+		B36809AA1DAC83A50082206C /* WMNavigationBarView */ = {
+			isa = PBXGroup;
+			children = (
+				B36809AB1DAC83A50082206C /* WMNavigationBarView.h */,
+				B36809AC1DAC83A50082206C /* WMNavigationBarView.m */,
+			);
+			path = WMNavigationBarView;
+			sourceTree = "<group>";
+		};
+		B36809AD1DAC83A50082206C /* WMPhotoCell */ = {
+			isa = PBXGroup;
+			children = (
+				B36809AE1DAC83A50082206C /* WMPhotoCell.h */,
+				B36809AF1DAC83A50082206C /* WMPhotoCell.m */,
+				B36809B01DAC83A50082206C /* WMPhotoCell.xib */,
+			);
+			path = WMPhotoCell;
+			sourceTree = "<group>";
+		};
+		B36809B11DAC83A50082206C /* WMTabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				B36809B21DAC83A50082206C /* WMTabBarView.h */,
+				B36809B31DAC83A50082206C /* WMTabBarView.m */,
+				B36809B41DAC83A50082206C /* WMTabBarView.xib */,
+			);
+			path = WMTabBarView;
+			sourceTree = "<group>";
+		};
+		B36809B51DAC83A50082206C /* WMWaterMarkCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B36809B61DAC83A50082206C /* WMWaterMarkCollectionView.h */,
+				B36809B71DAC83A50082206C /* WMWaterMarkCollectionView.m */,
+				B36809B81DAC83A50082206C /* WMWaterMarkCollectionView.xib */,
+			);
+			path = WMWaterMarkCollectionView;
+			sourceTree = "<group>";
+		};
+		B36809BD1DAC83A50082206C /* WMConsts */ = {
+			isa = PBXGroup;
+			children = (
+				B36809BE1DAC83A50082206C /* WMKeyConsts.h */,
+				B36809BF1DAC83A50082206C /* WMKeyConsts.m */,
+			);
+			path = WMConsts;
+			sourceTree = "<group>";
+		};
+		B36809C01DAC83A50082206C /* WMMacros */ = {
+			isa = PBXGroup;
+			children = (
+				B36809C11DAC83A50082206C /* WMUIMacros.h */,
+			);
+			path = WMMacros;
+			sourceTree = "<group>";
+		};
+		B36809C21DAC83A50082206C /* WMOptions */ = {
+			isa = PBXGroup;
+			children = (
+				B36809C31DAC83A50082206C /* WMOptions.h */,
+			);
+			path = WMOptions;
+			sourceTree = "<group>";
+		};
+		B36809C41DAC83A50082206C /* WMTypes */ = {
+			isa = PBXGroup;
+			children = (
+				B36809C51DAC83A50082206C /* WMTypes.h */,
+			);
+			path = WMTypes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36809491DAC80890082206C /* WMCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36809611DAC80890082206C /* Build configuration list for PBXNativeTarget "WMCamera" */;
+			buildPhases = (
+				FB64CEC934897AB99642D3A1 /* [CP] Check Pods Manifest.lock */,
+				B36809461DAC80890082206C /* Sources */,
+				B36809471DAC80890082206C /* Frameworks */,
+				B36809481DAC80890082206C /* Resources */,
+				4998D4DC9FFB79BDE47B6E54 /* [CP] Embed Pods Frameworks */,
+				02DC6A4D1D4C8867CBC55DD8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMCamera;
+			productName = WMCamera;
+			productReference = B368094A1DAC80890082206C /* WMCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36809421DAC80890082206C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LeoKing;
+				TargetAttributes = {
+					B36809491DAC80890082206C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S56BSYT3ZD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B36809451DAC80890082206C /* Build configuration list for PBXProject "WMCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36809411DAC80890082206C;
+			productRefGroup = B368094B1DAC80890082206C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36809491DAC80890082206C /* WMCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36809481DAC80890082206C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B368095D1DAC80890082206C /* LaunchScreen.storyboard in Resources */,
+				B36809E91DAC83A50082206C /* WMWaterMarkCollectionView.xib in Resources */,
+				B36809E51DAC83A50082206C /* WMPhotoCell.xib in Resources */,
+				B368095A1DAC80890082206C /* Assets.xcassets in Resources */,
+				B36809581DAC80890082206C /* Main.storyboard in Resources */,
+				B36809DF1DAC83A50082206C /* WMImageCollectionCell.xib in Resources */,
+				B36809DA1DAC83A50082206C /* WMAlbumView.xib in Resources */,
+				B36809CC1DAC83A50082206C /* WMCameraController.xib in Resources */,
+				B36809E21DAC83A50082206C /* WMImageViewCell.xib in Resources */,
+				B36809E71DAC83A50082206C /* WMTabBarView.xib in Resources */,
+				B36809CA1DAC83A50082206C /* WMAlbumsController.xib in Resources */,
+				B36809D61DAC83A50082206C /* WMAlbumCell.xib in Resources */,
+				B36809DC1DAC83A50082206C /* WMCameraControlView.xib in Resources */,
+				B36809D21DAC83A50082206C /* WMImages.xcassets in Resources */,
+				B36809D81DAC83A50082206C /* WMAlbumSelectionView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02DC6A4D1D4C8867CBC55DD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WMCamera/Pods-WMCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4998D4DC9FFB79BDE47B6E54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WMCamera/Pods-WMCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB64CEC934897AB99642D3A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36809461DAC80890082206C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36809E41DAC83A50082206C /* WMPhotoCell.m in Sources */,
+				B36809C91DAC83A50082206C /* WMAlbumsController.m in Sources */,
+				B36809E61DAC83A50082206C /* WMTabBarView.m in Sources */,
+				B36809D31DAC83A50082206C /* WMAlbumUtils.m in Sources */,
+				B36809551DAC80890082206C /* ViewController.m in Sources */,
+				B36809CF1DAC83A50082206C /* WMMainViewController.m in Sources */,
+				B36809E31DAC83A50082206C /* WMNavigationBarView.m in Sources */,
+				B36809EB1DAC83A50082206C /* WMCamera.m in Sources */,
+				B36809E81DAC83A50082206C /* WMWaterMarkCollectionView.m in Sources */,
+				B36809DB1DAC83A50082206C /* WMCameraControlView.m in Sources */,
+				B36809CE1DAC83A50082206C /* WMImageEditViewController.m in Sources */,
+				B36809521DAC80890082206C /* AppDelegate.m in Sources */,
+				B368094F1DAC80890082206C /* main.m in Sources */,
+				B36809CB1DAC83A50082206C /* WMPhotosController.m in Sources */,
+				B36809EA1DAC83A50082206C /* WMAlbum.m in Sources */,
+				B36809EC1DAC83A50082206C /* WMKeyConsts.m in Sources */,
+				B36809C71DAC83A50082206C /* ALAssetsGroup+Utils.m in Sources */,
+				B36809CD1DAC83A50082206C /* WMCameraViewController.m in Sources */,
+				B36809D91DAC83A50082206C /* WMAlbumView.m in Sources */,
+				B36809C81DAC83A50082206C /* WMAbstractViewController.m in Sources */,
+				B36809DE1DAC83A50082206C /* WMImageCollectionCell.m in Sources */,
+				B36809E01DAC83A50082206C /* WMImageCropView.m in Sources */,
+				B36809D71DAC83A50082206C /* WMAlbumSelectionView.m in Sources */,
+				B36809DD1DAC83A50082206C /* WMCircleMaskView.m in Sources */,
+				B36809C61DAC83A50082206C /* ALAsset+Utils.m in Sources */,
+				B36809D11DAC83A50082206C /* WMWaterMark.m in Sources */,
+				B36809D51DAC83A50082206C /* WMAlbumCell.m in Sources */,
+				B36809E11DAC83A50082206C /* WMImageViewCell.m in Sources */,
+				B36809D01DAC83A50082206C /* WMPhotosViewController.m in Sources */,
+				B36809D41DAC83A50082206C /* WMImageUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B36809561DAC80890082206C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36809571DAC80890082206C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B368095B1DAC80890082206C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B368095C1DAC80890082206C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B368095F1DAC80890082206C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B36809601DAC80890082206C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36809621DAC80890082206C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D91F5DC8486948542A1BB0 /* Pods-WMCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S56BSYT3ZD;
+				INFOPLIST_FILE = WMCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TStudio.WMCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B36809631DAC80890082206C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE84CA92383DE535361B55C /* Pods-WMCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S56BSYT3ZD;
+				INFOPLIST_FILE = WMCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TStudio.WMCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36809451DAC80890082206C /* Build configuration list for PBXProject "WMCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B368095F1DAC80890082206C /* Debug */,
+				B36809601DAC80890082206C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36809611DAC80890082206C /* Build configuration list for PBXNativeTarget "WMCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36809621DAC80890082206C /* Debug */,
+				B36809631DAC80890082206C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36809421DAC80890082206C /* Project object */;
+}

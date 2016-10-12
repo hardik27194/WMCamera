@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WMAlbumCell" id="KGk-i7-Jjw" customClass="WMAlbumCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NA8-KR-f67">
+                        <rect key="frame" x="23" y="6" width="56" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="56" id="2Cr-nO-teU"/>
+                            <constraint firstAttribute="width" secondItem="NA8-KR-f67" secondAttribute="height" multiplier="1:1" id="4Cd-f3-FuE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74A-co-jOX">
+                        <rect key="frame" x="94" y="14" width="5" height="18"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                        <color key="textColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCZ-RG-guR">
+                        <rect key="frame" x="94" y="40" width="7" height="12"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="10"/>
+                        <color key="textColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="NA8-KR-f67" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="B4d-xZ-rcJ"/>
+                    <constraint firstItem="NA8-KR-f67" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="B8T-f9-qeI"/>
+                    <constraint firstItem="74A-co-jOX" firstAttribute="leading" secondItem="NA8-KR-f67" secondAttribute="trailing" constant="15" id="QLI-sT-wRh"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="yCZ-RG-guR" secondAttribute="trailing" constant="15" id="SSh-Ch-5hE"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="74A-co-jOX" secondAttribute="trailing" constant="15" id="V9c-vA-Cby"/>
+                    <constraint firstItem="yCZ-RG-guR" firstAttribute="top" secondItem="74A-co-jOX" secondAttribute="bottom" constant="8" id="WXS-7Q-idC"/>
+                    <constraint firstItem="74A-co-jOX" firstAttribute="leading" secondItem="yCZ-RG-guR" secondAttribute="leading" id="ftc-qN-F8U"/>
+                    <constraint firstItem="74A-co-jOX" firstAttribute="top" secondItem="NA8-KR-f67" secondAttribute="top" constant="8" id="xSI-pC-U0L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="_lblCount" destination="yCZ-RG-guR" id="R48-Bo-7wF"/>
+                <outlet property="_lblName" destination="74A-co-jOX" id="lw6-UZ-0r7"/>
+                <outlet property="_posterView" destination="NA8-KR-f67" id="aV1-1y-DQF"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="hXM-9b-9Ie" customClass="WMCameraControlView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVL-ZD-IaZ">
+                    <rect key="frame" x="250" y="55" width="37" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="uVL-ZD-IaZ" secondAttribute="height" multiplier="1:1" id="Qgz-CP-WuO"/>
+                    </constraints>
+                    <state key="normal" image="ic_add_watermark">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="waterMarkAction:" destination="hXM-9b-9Ie" eventType="touchUpInside" id="ZIW-6E-0kL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j96-bj-cP8">
+                    <rect key="frame" x="115" y="28" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="j96-bj-cP8" secondAttribute="height" multiplier="1:1" id="Wh5-fH-v7h"/>
+                    </constraints>
+                    <state key="normal" image="btn_takePhoto_normal">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="btn_takePhoto_pressed"/>
+                    <connections>
+                        <action selector="captureAction:" destination="hXM-9b-9Ie" eventType="touchUpInside" id="b7g-6f-3mm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.18431372549019609" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="uVL-ZD-IaZ" firstAttribute="width" secondItem="uVL-ZD-IaZ" secondAttribute="height" multiplier="1:1" id="0D9-9a-JiW"/>
+                <constraint firstItem="uVL-ZD-IaZ" firstAttribute="centerY" secondItem="j96-bj-cP8" secondAttribute="centerY" id="3gm-lk-qgR"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="j96-bj-cP8" secondAttribute="bottom" constant="5" id="48t-7b-EDd"/>
+                <constraint firstItem="j96-bj-cP8" firstAttribute="centerX" secondItem="hXM-9b-9Ie" secondAttribute="centerX" id="CgJ-CR-Eke"/>
+                <constraint firstItem="j96-bj-cP8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hXM-9b-9Ie" secondAttribute="top" constant="5" id="kBS-4x-smF"/>
+                <constraint firstItem="j96-bj-cP8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hXM-9b-9Ie" secondAttribute="leading" constant="135" id="qmN-R4-cpp"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="j96-bj-cP8" secondAttribute="trailing" constant="135" id="uTv-Zc-eUZ"/>
+                <constraint firstItem="j96-bj-cP8" firstAttribute="centerY" secondItem="hXM-9b-9Ie" secondAttribute="centerY" id="w3B-Bn-9ll"/>
+                <constraint firstItem="uVL-ZD-IaZ" firstAttribute="leading" secondItem="j96-bj-cP8" secondAttribute="trailing" constant="45" id="yjc-2n-eGY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="qmN-R4-cpp"/>
+                    <exclude reference="uTv-Zc-eUZ"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="btnCapture" destination="j96-bj-cP8" id="LG7-8a-RXj"/>
+                <outlet property="btnWartermark" destination="uVL-ZD-IaZ" id="yZe-gu-VxR"/>
+            </connections>
+            <point key="canvasLocation" x="236" y="-436"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_takePhoto_normal" width="90" height="90"/>
+        <image name="btn_takePhoto_pressed" width="90" height="90"/>
+        <image name="ic_add_watermark" width="37" height="37"/>
+    </resources>
+</document>

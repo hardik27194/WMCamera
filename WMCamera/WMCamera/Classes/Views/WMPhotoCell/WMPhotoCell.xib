@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WMPhotoCell" id="gTV-IL-0wX" customClass="WMPhotoCell">
+            <rect key="frame" x="0.0" y="0.0" width="163" height="133"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="163" height="133"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nWS-nX-nbs">
+                        <rect key="frame" x="0.0" y="0.0" width="163" height="133"/>
+                        <color key="backgroundColor" red="0.35686274509803922" green="0.34901960784313724" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNY-V7-B3w">
+                        <rect key="frame" x="138" y="5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="EBX-rA-PuB"/>
+                            <constraint firstAttribute="width" secondItem="yNY-V7-B3w" secondAttribute="height" multiplier="1:1" id="jKe-R8-3eR"/>
+                        </constraints>
+                        <state key="normal" image="ic_eula_unselected"/>
+                        <state key="selected" image="ic_eula_selected"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="nWS-nX-nbs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KDZ-vH-wd7"/>
+                <constraint firstItem="nWS-nX-nbs" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Zk7-Uv-g0Q"/>
+                <constraint firstAttribute="bottom" secondItem="nWS-nX-nbs" secondAttribute="bottom" id="i2v-UF-q7O"/>
+                <constraint firstAttribute="trailing" secondItem="yNY-V7-B3w" secondAttribute="trailing" constant="5" id="iO6-EE-yfb"/>
+                <constraint firstAttribute="trailing" secondItem="nWS-nX-nbs" secondAttribute="trailing" id="lpj-Qt-583"/>
+                <constraint firstItem="yNY-V7-B3w" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="tN3-WZ-hKV"/>
+            </constraints>
+            <size key="customSize" width="163" height="133"/>
+            <connections>
+                <outlet property="checkView" destination="yNY-V7-B3w" id="xUl-7q-EMK"/>
+                <outlet property="imageView" destination="nWS-nX-nbs" id="jnH-DE-7nB"/>
+            </connections>
+            <point key="canvasLocation" x="175.5" y="184.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_eula_selected" width="14" height="14"/>
+        <image name="ic_eula_unselected" width="14" height="14"/>
+    </resources>
+</document>
