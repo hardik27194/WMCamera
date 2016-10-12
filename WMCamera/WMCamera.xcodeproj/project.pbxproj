@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B32196CD1DAE11E200C7B5D3 /* WMCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B32196CC1DAE11E200C7B5D3 /* WMCamera.bundle */; };
 		B33FBF9B1DAE0D3400650DD1 /* WMImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33FBF9A1DAE0D3400650DD1 /* WMImages.xcassets */; };
 		B368094F1DAC80890082206C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B368094E1DAC80890082206C /* main.m */; };
 		B36809521DAC80890082206C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809511DAC80890082206C /* AppDelegate.m */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		82E5B7CB18B781742CEA5A4A /* libPods-WMCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WMCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D91F5DC8486948542A1BB0 /* Pods-WMCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WMCamera/Pods-WMCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		B32196CC1DAE11E200C7B5D3 /* WMCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMCamera.bundle; sourceTree = "<group>"; };
 		B33FBF9A1DAE0D3400650DD1 /* WMImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WMImages.xcassets; sourceTree = "<group>"; };
 		B368094A1DAC80890082206C /* WMCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B368094E1DAC80890082206C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				B33FBF9A1DAE0D3400650DD1 /* WMImages.xcassets */,
+				B32196CC1DAE11E200C7B5D3 /* WMCamera.bundle */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 				B36809E91DAC83A50082206C /* WMWaterMarkCollectionView.xib in Resources */,
 				B33FBF9B1DAE0D3400650DD1 /* WMImages.xcassets in Resources */,
 				B36809E51DAC83A50082206C /* WMPhotoCell.xib in Resources */,
+				B32196CD1DAE11E200C7B5D3 /* WMCamera.bundle in Resources */,
 				B368095A1DAC80890082206C /* Assets.xcassets in Resources */,
 				B36809581DAC80890082206C /* Main.storyboard in Resources */,
 				B36809DF1DAC83A50082206C /* WMImageCollectionCell.xib in Resources */,
