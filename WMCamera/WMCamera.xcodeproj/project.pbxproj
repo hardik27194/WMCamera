@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B33FBF961DAE085C00650DD1 /* history_title_down_icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B33FBF941DAE085C00650DD1 /* history_title_down_icon.pdf */; };
 		B33FBF971DAE085C00650DD1 /* ic_wm_followme@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B33FBF951DAE085C00650DD1 /* ic_wm_followme@2x.png */; };
+		B33FBF991DAE099700650DD1 /* WMCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B33FBF981DAE099700650DD1 /* WMCamera.bundle */; };
 		B368094F1DAC80890082206C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B368094E1DAC80890082206C /* main.m */; };
 		B36809521DAC80890082206C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809511DAC80890082206C /* AppDelegate.m */; };
 		B36809551DAC80890082206C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809541DAC80890082206C /* ViewController.m */; };
@@ -62,6 +63,7 @@
 		96D91F5DC8486948542A1BB0 /* Pods-WMCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WMCamera/Pods-WMCamera.debug.xcconfig"; sourceTree = "<group>"; };
 		B33FBF941DAE085C00650DD1 /* history_title_down_icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = history_title_down_icon.pdf; sourceTree = "<group>"; };
 		B33FBF951DAE085C00650DD1 /* ic_wm_followme@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_wm_followme@2x.png"; sourceTree = "<group>"; };
+		B33FBF981DAE099700650DD1 /* WMCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMCamera.bundle; sourceTree = "<group>"; };
 		B368094A1DAC80890082206C /* WMCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B368094E1DAC80890082206C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B36809501DAC80890082206C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -318,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				B36809841DAC83A50082206C /* images */,
+				B33FBF981DAE099700650DD1 /* WMCamera.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -580,6 +583,7 @@
 				B368095A1DAC80890082206C /* Assets.xcassets in Resources */,
 				B36809581DAC80890082206C /* Main.storyboard in Resources */,
 				B33FBF961DAE085C00650DD1 /* history_title_down_icon.pdf in Resources */,
+				B33FBF991DAE099700650DD1 /* WMCamera.bundle in Resources */,
 				B33FBF971DAE085C00650DD1 /* ic_wm_followme@2x.png in Resources */,
 				B36809DF1DAC83A50082206C /* WMImageCollectionCell.xib in Resources */,
 				B36809DA1DAC83A50082206C /* WMAlbumView.xib in Resources */,
