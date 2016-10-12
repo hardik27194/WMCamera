@@ -6,5 +6,6 @@ target 'WMCamera' do
     
 pod 'Masonry'
 pod 'GPUImage'
+pod 'Flurry-iOS-SDK'
 
 end
