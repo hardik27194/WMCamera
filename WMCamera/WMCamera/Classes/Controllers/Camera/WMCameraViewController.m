@@ -8,6 +8,8 @@
 
 #import <GPUImage/GPUImage.h>
 #import <Masonry/Masonry.h>
+#import <Flurry-iOS-SDK/Flurry.h>
+#import <Runtopia-Defines/Runtopia-Defines.h>
 
 #import "WMCameraViewController.h"
 #import "WMImageEditViewController.h"
@@ -426,9 +428,8 @@
 }
 
 - (void)flashChangeAction:(id)sender {
-    
-    //TODO: 处理一下
-    //FLURRY(@"水印相机_Camera Tab_切换闪光灯");
+
+    FLURRY(@"水印相机_Camera Tab_切换闪光灯");
     AVCaptureFlashMode flashMode = _stillCamera.inputCamera.flashMode;
     flashMode += 1;
     flashMode = flashMode % (AVCaptureFlashModeAuto + 1);
@@ -448,9 +449,7 @@
 }
 
 - (void)presentChangeAction:(id)sender {
-    
-    //TODO: 处理一下
-    //FLURRY(@"水印相机_Camera Tab_切换前后摄像头");
+    FLURRY(@"水印相机_Camera Tab_切换前后摄像头");
     [_stillCamera rotateCamera];
     if(_stillCamera.inputCamera.position == AVCaptureDevicePositionFront) {
         self.btnFlash.hidden = YES;
@@ -485,9 +484,7 @@
 #pragma mark - WMCameraControlDelegate 
 
 - (void)cameraControlViewDidClickedCaputre:(WMCameraControlView *)cameraControlView {
-    
-    //TODO: 处理一下
-    //FLURRY(@"水印相机_Camera Tab_拍照");
+    FLURRY(@"水印相机_Camera Tab_拍照");
     if(self.isCapturing) {
         return;
     }
@@ -520,9 +517,7 @@
 }
 
 - (void)cameraControlViewDidClickedWartermark:(WMCameraControlView *)cameraControlView {
-    
-    //TODO: 处理一下
-    //FLURRY(@"水印相机_Camera Tab_＋水印");
+    FLURRY(@"水印相机_Camera Tab_＋水印");
     [self showWatermarkCollectionViewAnimated:YES];
 }
 
@@ -531,9 +526,7 @@
 - (void)waterMarkCollectionView:(WMWaterMarkCollectionView *)wmCollectionView
            didSelectedWatermark:(id<WMWatermarkProtocol>)watermark
                         atIndex:(NSUInteger)aIndex {
-    
-    //TODO: 处理一下
-    //FLURRY(@"水印相机_Camera Tab_＋水印_选择水印");
+    FLURRY(@"水印相机_Camera Tab_＋水印_选择水印");
     [self setSelectedWatermark:watermark atIndex:aIndex];
     [self hideWatermarkCollectionViewAnimated:YES];
 }

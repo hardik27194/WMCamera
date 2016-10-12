@@ -7,5 +7,6 @@ target 'WMCamera' do
 pod 'Masonry'
 pod 'GPUImage'
 pod 'Flurry-iOS-SDK'
+pod 'Runtopia-Defines',:git => 'https://github.com/iOSTea/Runtopia-Defines.git', :tag => '0.0.1'
 
 end

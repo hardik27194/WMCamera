@@ -13,6 +13,8 @@
 #import "WMCameraViewController.h"
 #import "WMTabBarView.h"
 #import "WMWaterMark.h"
+#import <Flurry-iOS-SDK/Flurry.h>
+#import <Runtopia-Defines/Runtopia-Defines.h>
 
 @interface WMMainViewController () <WMTabBarViewDelegte>
 {
@@ -172,16 +174,12 @@
 
 - (void)tabBarView:(WMTabBarView *)tabBar willSelectTabIndex:(NSUInteger)tabIndex {
     [self changeContentViewToIndex:tabIndex animated:YES];
-    
-    //TODO: 处理一下
-    /*
     if(tabIndex == 0) {
         FLURRY(@"水印相机_Library Tab");
     }
     else {
         FLURRY(@"水印相机_Camera Tab");
     }
-    */
 }
 
 @end

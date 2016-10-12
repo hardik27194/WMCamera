@@ -20,6 +20,8 @@
 #import "WMKeyConsts.h"
 #import "ALAsset+Utils.h"
 #import "WMUIMacros.h"
+#import <Flurry-iOS-SDK/Flurry.h>
+#import <Runtopia-Defines/Runtopia-Defines.h>
 
 NSString * const kCollectionCellIdentifier      = @"WMImageCollectionCell";
 
@@ -230,9 +232,7 @@ static CGFloat      kInset                  = 1.0;
 }
 
 - (void)nextAction:(id)sender {
-    
-    //TODO: 处理一下
-    //FLURRY(@"水印相机_Next");
+    FLURRY(@"水印相机_Next");
     UIImage *cropedImage              = [_vImageCropView currentCropedImage];
     [self outputImage:cropedImage];
     
@@ -249,8 +249,7 @@ static CGFloat      kInset                  = 1.0;
 
 - (void)changeAlbumAction:(id)sender {
     
-    //TODO: 处理一下
-    //FLURRY(@"水印相机_相册_camera roll");
+    FLURRY(@"水印相机_相册_camera roll");
     if(self.albumView.superview) {
         [self hideAlbumViewAnimated:YES];
     }

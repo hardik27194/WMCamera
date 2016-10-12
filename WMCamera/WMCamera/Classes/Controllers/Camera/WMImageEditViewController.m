@@ -7,6 +7,8 @@
 //
 
 #import <Masonry/Masonry.h>
+#import <Flurry-iOS-SDK/Flurry.h>
+#import <Runtopia-Defines/Runtopia-Defines.h>
 
 #import "WMImageEditViewController.h"
 
@@ -215,8 +217,7 @@
 }
 
 - (void)doneAction:(id)sender {
-    //TODO: 处理一下
-    //FLURRY(@"水印相机_Edit_Done");
+    FLURRY(@"水印相机_Edit_Done");
     if(!_image) {
         return;
     }
@@ -245,8 +246,7 @@
 - (void)waterMarkCollectionView:(WMWaterMarkCollectionView *)wmCollectionView
            didSelectedWatermark:(id<WMWatermarkProtocol>)watermark
                         atIndex:(NSUInteger)aIndex {
-    //TODO: 处理一下
-    //FLURRY(@"水印相机_Edit_选择水印");
+    FLURRY(@"水印相机_Edit_选择水印");
     [self setSelectedWatermark:watermark atIndex:aIndex];
 }
 
