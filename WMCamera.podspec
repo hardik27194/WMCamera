@@ -136,6 +136,7 @@ Pod::Spec.new do |s|
   s.dependency "Masonry"
   s.dependency "GPUImage"
   s.dependency "Flurry-iOS-SDK"
+  s.dependency "Runtopia-Defines"
   
 
 end
