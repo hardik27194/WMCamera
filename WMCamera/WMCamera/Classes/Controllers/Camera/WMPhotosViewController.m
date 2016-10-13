@@ -108,7 +108,8 @@ static CGFloat      kInset                  = 1.0;
         [rightBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         
         //TODO: 处理一下
-        //[rightBtn setTitleColor:[UIColor firstContentColor] forState:UIControlStateHighlighted];
+        UIColor *firstContentColor = [UIColor colorWithRed:1.0 green:94.f/255.f blue:0 alpha:1.0];
+        [rightBtn setTitleColor:firstContentColor forState:UIControlStateHighlighted];
         if(self.isSupportWatermarks) {
             [rightBtn setTitle:NSLocalizedString(@"Next", nil)
                       forState:UIControlStateNormal];
