@@ -1,12 +1,13 @@
 
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '7.0'
+use_frameworks!
 
 target 'WMCamera' do
     
 pod 'Masonry'
 pod 'GPUImage'
-pod 'Flurry-iOS-SDK'
+pod 'Flurry-iOS-SDK/FlurrySDK'
 pod 'Runtopia-Defines'
 
 end

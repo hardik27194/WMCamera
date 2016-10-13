@@ -7,6 +7,8 @@
 //
 
 #import <Masonry/Masonry.h>
+#import <Flurry_iOS_SDK/Flurry.h>
+#import <Runtopia-Defines/Runtopia-Defines.h>
 
 #import "WMPhotosViewController.h"
 #import "WMImageEditViewController.h"
@@ -20,8 +22,6 @@
 #import "WMKeyConsts.h"
 #import "ALAsset+Utils.h"
 #import "WMUIMacros.h"
-#import <Flurry-iOS-SDK/Flurry.h>
-#import <Runtopia-Defines/Runtopia-Defines.h>
 
 NSString * const kCollectionCellIdentifier      = @"WMImageCollectionCell";
 

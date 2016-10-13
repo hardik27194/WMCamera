@@ -8,7 +8,7 @@
 
 #import <GPUImage/GPUImage.h>
 #import <Masonry/Masonry.h>
-#import <Flurry-iOS-SDK/Flurry.h>
+#import <Flurry_iOS_SDK/Flurry.h>
 #import <Runtopia-Defines/Runtopia-Defines.h>
 
 #import "WMCameraViewController.h"
