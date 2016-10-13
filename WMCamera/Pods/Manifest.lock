@@ -1,18 +1,23 @@
 PODS:
+  - Flurry-iOS-SDK (7.8.0):
+    - Flurry-iOS-SDK/FlurrySDK (= 7.8.0)
+  - Flurry-iOS-SDK/FlurrySDK (7.8.0)
   - GPUImage (0.1.7)
   - Masonry (1.0.1)
   - Runtopia-Defines (0.0.1)
 
 DEPENDENCIES:
+  - Flurry-iOS-SDK
   - GPUImage
   - Masonry
   - Runtopia-Defines
 
 SPEC CHECKSUMS:
+  Flurry-iOS-SDK: 388df247b9d92659527b608c891c7e474cd9d00e
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   Runtopia-Defines: d645493a0aaa76be87a239383e6e8974bf718239
 
-PODFILE CHECKSUM: b1348cf9e31a25d187d5203283d2eb2a6be5cab4
+PODFILE CHECKSUM: 8288948024c0b4326f7d5532f5eb3cc25813b028
 
 COCOAPODS: 1.1.0.rc.3
