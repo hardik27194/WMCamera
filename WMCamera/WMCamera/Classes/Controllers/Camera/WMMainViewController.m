@@ -65,7 +65,9 @@
 - (void)initSubviews {
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self.view addSubview:({
-        _tabBarView = [[[NSBundle mainBundle] loadNibNamed:@"WMTabBarView"
+        
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        _tabBarView = [[bundle loadNibNamed:@"WMTabBarView"
                                                      owner:self
                                                    options:nil] lastObject];
         _tabBarView.delegate = self;

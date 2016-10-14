@@ -144,7 +144,7 @@ static CGFloat      kInset                  = 1.0;
                                                                         alpha:1.0f];
         
         UINib *nib = [UINib nibWithNibName:NSStringFromClass([WMImageCollectionCell class])
-                                    bundle:nil];
+                                    bundle:[NSBundle bundleForClass:[self class]]];
         [collectionView registerNib:nib
          forCellWithReuseIdentifier:kCollectionCellIdentifier];
         

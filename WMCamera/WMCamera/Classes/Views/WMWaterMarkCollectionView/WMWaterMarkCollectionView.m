@@ -22,9 +22,11 @@ NSString * const kWatermarkCollectionCellId     = @"WMImageCollectionCell";
 @implementation WMWaterMarkCollectionView
 
 + (instancetype)waterMarkCollectionView {
-    WMWaterMarkCollectionView *waterMarkCollectionView = [[[NSBundle mainBundle] loadNibNamed:@"WMWaterMarkCollectionView"
-                                                                                        owner:self
-                                                                                      options:nil] firstObject];
+    
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    WMWaterMarkCollectionView *waterMarkCollectionView = [[bundle loadNibNamed:@"WMWaterMarkCollectionView"
+                                                                         owner:self
+                                                                       options:nil] firstObject];
     return waterMarkCollectionView;
 }
 
@@ -36,7 +38,7 @@ NSString * const kWatermarkCollectionCellId     = @"WMImageCollectionCell";
 - (void)commonInit {
     _selectedIndex = -1;
     UINib *nib = [UINib nibWithNibName:NSStringFromClass([WMImageCollectionCell class])
-                                bundle:nil];
+                                bundle:[NSBundle bundleForClass:[self class]]];
     [self.collectionView registerNib:nib
           forCellWithReuseIdentifier:kWatermarkCollectionCellId];
 }
@@ -58,9 +60,9 @@ NSString * const kWatermarkCollectionCellId     = @"WMImageCollectionCell";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     WMImageCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kWatermarkCollectionCellId
-                                                                           forIndexPath:indexPath];
+                                                                            forIndexPath:indexPath];
     [cell setImageContentFillMode:UIViewContentModeScaleAspectFit];
-
+    
     if(indexPath.row == 0) {
         [cell setImage:[UIImage imageNamed:@"ic_empty_watermark"]];
     }

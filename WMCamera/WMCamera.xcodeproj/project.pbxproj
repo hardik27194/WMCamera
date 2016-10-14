@@ -79,7 +79,17 @@
 		B36809EA1DAC83A50082206C /* WMAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809BA1DAC83A50082206C /* WMAlbum.m */; };
 		B36809EB1DAC83A50082206C /* WMCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809BC1DAC83A50082206C /* WMCamera.m */; };
 		B36809EC1DAC83A50082206C /* WMKeyConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809BF1DAC83A50082206C /* WMKeyConsts.m */; };
-		B3ABE99B1DB06FEA00349B4E /* WMCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE99A1DB06FEA00349B4E /* WMCamera.bundle */; };
+		B3ABE9C11DB07F3600349B4E /* WMWaterMarkCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9B61DB07F3600349B4E /* WMWaterMarkCollectionView.xib */; };
+		B3ABE9C21DB07F3600349B4E /* WMTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9B71DB07F3600349B4E /* WMTabBarView.xib */; };
+		B3ABE9C31DB07F3600349B4E /* WMPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9B81DB07F3600349B4E /* WMPhotoCell.xib */; };
+		B3ABE9C41DB07F3600349B4E /* WMImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9B91DB07F3600349B4E /* WMImageViewCell.xib */; };
+		B3ABE9C51DB07F3600349B4E /* WMImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9BA1DB07F3600349B4E /* WMImageCollectionCell.xib */; };
+		B3ABE9C61DB07F3600349B4E /* WMCameraControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9BB1DB07F3600349B4E /* WMCameraControlView.xib */; };
+		B3ABE9C71DB07F3600349B4E /* WMCameraController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9BC1DB07F3600349B4E /* WMCameraController.xib */; };
+		B3ABE9C81DB07F3600349B4E /* WMAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9BD1DB07F3600349B4E /* WMAlbumView.xib */; };
+		B3ABE9C91DB07F3600349B4E /* WMAlbumSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9BE1DB07F3600349B4E /* WMAlbumSelectionView.xib */; };
+		B3ABE9CA1DB07F3600349B4E /* WMAlbumsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9BF1DB07F3600349B4E /* WMAlbumsController.xib */; };
+		B3ABE9CB1DB07F3600349B4E /* WMAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE9C01DB07F3600349B4E /* WMAlbumCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -191,7 +201,17 @@
 		B36809C11DAC83A50082206C /* WMUIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUIMacros.h; sourceTree = "<group>"; };
 		B36809C31DAC83A50082206C /* WMOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMOptions.h; sourceTree = "<group>"; };
 		B36809C51DAC83A50082206C /* WMTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTypes.h; sourceTree = "<group>"; };
-		B3ABE99A1DB06FEA00349B4E /* WMCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMCamera.bundle; sourceTree = "<group>"; };
+		B3ABE9B61DB07F3600349B4E /* WMWaterMarkCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMWaterMarkCollectionView.xib; sourceTree = "<group>"; };
+		B3ABE9B71DB07F3600349B4E /* WMTabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMTabBarView.xib; sourceTree = "<group>"; };
+		B3ABE9B81DB07F3600349B4E /* WMPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMPhotoCell.xib; sourceTree = "<group>"; };
+		B3ABE9B91DB07F3600349B4E /* WMImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMImageViewCell.xib; sourceTree = "<group>"; };
+		B3ABE9BA1DB07F3600349B4E /* WMImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMImageCollectionCell.xib; sourceTree = "<group>"; };
+		B3ABE9BB1DB07F3600349B4E /* WMCameraControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMCameraControlView.xib; sourceTree = "<group>"; };
+		B3ABE9BC1DB07F3600349B4E /* WMCameraController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMCameraController.xib; sourceTree = "<group>"; };
+		B3ABE9BD1DB07F3600349B4E /* WMAlbumView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumView.xib; sourceTree = "<group>"; };
+		B3ABE9BE1DB07F3600349B4E /* WMAlbumSelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumSelectionView.xib; sourceTree = "<group>"; };
+		B3ABE9BF1DB07F3600349B4E /* WMAlbumsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumsController.xib; sourceTree = "<group>"; };
+		B3ABE9C01DB07F3600349B4E /* WMAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumCell.xib; sourceTree = "<group>"; };
 		FCE84CA92383DE535361B55C /* Pods-WMCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-WMCamera/Pods-WMCamera.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -365,8 +385,18 @@
 		B36809831DAC83A50082206C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B3ABE9B61DB07F3600349B4E /* WMWaterMarkCollectionView.xib */,
+				B3ABE9B71DB07F3600349B4E /* WMTabBarView.xib */,
+				B3ABE9B81DB07F3600349B4E /* WMPhotoCell.xib */,
+				B3ABE9B91DB07F3600349B4E /* WMImageViewCell.xib */,
+				B3ABE9BA1DB07F3600349B4E /* WMImageCollectionCell.xib */,
+				B3ABE9BB1DB07F3600349B4E /* WMCameraControlView.xib */,
+				B3ABE9BC1DB07F3600349B4E /* WMCameraController.xib */,
+				B3ABE9BD1DB07F3600349B4E /* WMAlbumView.xib */,
+				B3ABE9BE1DB07F3600349B4E /* WMAlbumSelectionView.xib */,
+				B3ABE9BF1DB07F3600349B4E /* WMAlbumsController.xib */,
+				B3ABE9C01DB07F3600349B4E /* WMAlbumCell.xib */,
 				B36809841DAC83A50082206C /* images */,
-				B3ABE99A1DB06FEA00349B4E /* WMCamera.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -651,11 +681,15 @@
 			files = (
 				B321970E1DAE12DE00C7B5D3 /* ic_wm_runyourself@2x.png in Resources */,
 				B32196FD1DAE12DE00C7B5D3 /* btn_present_normal@2x.png in Resources */,
+				B3ABE9C31DB07F3600349B4E /* WMPhotoCell.xib in Resources */,
 				B32196F61DAE12DE00C7B5D3 /* btn_close_camera_normal@3x.png in Resources */,
 				B368095D1DAC80890082206C /* LaunchScreen.storyboard in Resources */,
 				B32196F91DAE12DE00C7B5D3 /* btn_flash_close_normal@2x.png in Resources */,
 				B33FBF9B1DAE0D3400650DD1 /* WMImages.xcassets in Resources */,
 				B321970B1DAE12DE00C7B5D3 /* ic_wm_followme@3x.png in Resources */,
+				B3ABE9C71DB07F3600349B4E /* WMCameraController.xib in Resources */,
+				B3ABE9CB1DB07F3600349B4E /* WMAlbumCell.xib in Resources */,
+				B3ABE9C81DB07F3600349B4E /* WMAlbumView.xib in Resources */,
 				B32197121DAE12DE00C7B5D3 /* img_wm_followme.png in Resources */,
 				B32196F41DAE12DE00C7B5D3 /* btn_back_camera_normal@3x.png in Resources */,
 				B32197111DAE12DE00C7B5D3 /* ic_wm_wakeup@3x.png in Resources */,
@@ -663,14 +697,16 @@
 				B32196F71DAE12DE00C7B5D3 /* btn_flash_auto_normal@2x.png in Resources */,
 				B32196F81DAE12DE00C7B5D3 /* btn_flash_auto_normal@3x.png in Resources */,
 				B321970D1DAE12DE00C7B5D3 /* ic_wm_gooutrun@3x.png in Resources */,
+				B3ABE9C51DB07F3600349B4E /* WMImageCollectionCell.xib in Resources */,
 				B368095A1DAC80890082206C /* Assets.xcassets in Resources */,
+				B3ABE9C91DB07F3600349B4E /* WMAlbumSelectionView.xib in Resources */,
 				B32196F51DAE12DE00C7B5D3 /* btn_close_camera_normal@2x.png in Resources */,
 				B32196FE1DAE12DE00C7B5D3 /* btn_present_normal@3x.png in Resources */,
+				B3ABE9CA1DB07F3600349B4E /* WMAlbumsController.xib in Resources */,
 				B32197091DAE12DE00C7B5D3 /* ic_selected_rectangle@3x.png in Resources */,
 				B321970A1DAE12DE00C7B5D3 /* ic_wm_followme@2x.png in Resources */,
 				B32196FC1DAE12DE00C7B5D3 /* btn_flash_open_normal@3x.png in Resources */,
 				B36809581DAC80890082206C /* Main.storyboard in Resources */,
-				B3ABE99B1DB06FEA00349B4E /* WMCamera.bundle in Resources */,
 				B32197161DAE12DE00C7B5D3 /* vLine@2x.png in Resources */,
 				B32197151DAE12DE00C7B5D3 /* img_wm_wakeup.png in Resources */,
 				B32197141DAE12DE00C7B5D3 /* img_wm_runyourself.png in Resources */,
@@ -678,9 +714,12 @@
 				B32197051DAE12DE00C7B5D3 /* ic_add_watermark@3x.png in Resources */,
 				B32197001DAE12DE00C7B5D3 /* btn_takePhoto_normal@3x.png in Resources */,
 				B32197031DAE12DE00C7B5D3 /* history_title_down_icon.pdf in Resources */,
+				B3ABE9C21DB07F3600349B4E /* WMTabBarView.xib in Resources */,
 				B32197081DAE12DE00C7B5D3 /* ic_selected_rectangle@2x.png in Resources */,
 				B32197011DAE12DE00C7B5D3 /* btn_takePhoto_pressed@2x.png in Resources */,
 				B321970F1DAE12DE00C7B5D3 /* ic_wm_runyourself@3x.png in Resources */,
+				B3ABE9C61DB07F3600349B4E /* WMCameraControlView.xib in Resources */,
+				B3ABE9C11DB07F3600349B4E /* WMWaterMarkCollectionView.xib in Resources */,
 				B321970C1DAE12DE00C7B5D3 /* ic_wm_gooutrun@2x.png in Resources */,
 				B32197101DAE12DE00C7B5D3 /* ic_wm_wakeup@2x.png in Resources */,
 				B32196FF1DAE12DE00C7B5D3 /* btn_takePhoto_normal@2x.png in Resources */,
@@ -689,6 +728,7 @@
 				B32196FB1DAE12DE00C7B5D3 /* btn_flash_open_normal@2x.png in Resources */,
 				B32197041DAE12DE00C7B5D3 /* ic_add_watermark@2x.png in Resources */,
 				B32196F31DAE12DE00C7B5D3 /* btn_back_camera_normal@2x.png in Resources */,
+				B3ABE9C41DB07F3600349B4E /* WMImageViewCell.xib in Resources */,
 				B32196FA1DAE12DE00C7B5D3 /* btn_flash_close_normal@3x.png in Resources */,
 				B32197021DAE12DE00C7B5D3 /* btn_takePhoto_pressed@3x.png in Resources */,
 			);

@@ -129,7 +129,7 @@ static CGFloat      kInset                  = 1.0;
         collectionView.backgroundColor              = [UIColor colorWithWhite:52.0f / 255.0f
                                                                         alpha:1.0f];
         
-        UINib *nib = [UINib nibWithNibName:kPhotoCellReuseId bundle:nil];
+        UINib *nib = [UINib nibWithNibName:kPhotoCellReuseId bundle:[NSBundle bundleForClass:[self class]]];
         [collectionView registerNib:nib forCellWithReuseIdentifier:kPhotoCellReuseId];
         [collectionView setAllowsMultipleSelection:(_allowsMultipleSelectionCount > 1)];
         

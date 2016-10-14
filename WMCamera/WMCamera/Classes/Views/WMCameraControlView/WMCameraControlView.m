@@ -17,7 +17,9 @@
 @implementation WMCameraControlView
 
 + (instancetype)cameraControlView {
-    WMCameraControlView *view = [[NSBundle mainBundle] loadNibNamed:@"WMCameraControlView"
+    
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    WMCameraControlView *view = [bundle loadNibNamed:@"WMCameraControlView"
                                                               owner:self
                                                             options:nil].firstObject;
     return view;

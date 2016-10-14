@@ -19,7 +19,9 @@ NSString * const kAlbumCellId   = @"WMAlbumCell";
 @implementation WMAlbumView
 
 + (instancetype)albumView {
-    WMAlbumView *albumView = [[[NSBundle mainBundle] loadNibNamed:@"WMAlbumView"
+    
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    WMAlbumView *albumView = [[bundle loadNibNamed:@"WMAlbumView"
                                                             owner:self
                                                           options:nil] firstObject];
     return albumView;
@@ -40,7 +42,7 @@ NSString * const kAlbumCellId   = @"WMAlbumCell";
 #pragma mark - Private
 
 - (void)configTableView {
-    UINib *nib = [UINib nibWithNibName:kAlbumCellId bundle:nil];
+    UINib *nib = [UINib nibWithNibName:kAlbumCellId bundle:[NSBundle bundleForClass:[self class]]];
     [self.tableView registerNib:nib forCellReuseIdentifier:kAlbumCellId];
     self.tableView.tableFooterView  = [UIView new];
 }

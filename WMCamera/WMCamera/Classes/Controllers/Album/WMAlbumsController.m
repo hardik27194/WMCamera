@@ -22,7 +22,8 @@ static NSString *kAlbumCellId   = @"WMAlbumCell";
 
 @implementation WMAlbumsController
 - (id)init {
-    if(self = [super initWithNibName:NSStringFromClass([self class]) bundle:nil]) {
+    if(self = [super initWithNibName:NSStringFromClass([self class])
+                              bundle:[NSBundle bundleForClass:[self class]]]) {
 
     }
     
@@ -44,7 +45,7 @@ static NSString *kAlbumCellId   = @"WMAlbumCell";
 - (void)configTableView {
     self.view.backgroundColor = [UIColor clearColor];
     
-    UINib *nib = [UINib nibWithNibName:kAlbumCellId bundle:nil];
+    UINib *nib = [UINib nibWithNibName:kAlbumCellId bundle:[NSBundle bundleForClass:[self class]]];
     [_tableView registerNib:nib forCellReuseIdentifier:kAlbumCellId];
     _tableView.separatorColor   = [UIColor colorWithRed:62.f/255.f green:62.f/255.f blue:62.f/255.f alpha:1.0];
     _tableView.tableFooterView  = [UIView new];

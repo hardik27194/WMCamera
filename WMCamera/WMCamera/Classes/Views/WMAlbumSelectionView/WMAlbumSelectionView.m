@@ -18,7 +18,8 @@
 @implementation WMAlbumSelectionView
 
 + (instancetype)albumSelectionView {
-    WMAlbumSelectionView *albumSelectionView = [[[NSBundle mainBundle] loadNibNamed:@"WMAlbumSelectionView"
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    WMAlbumSelectionView *albumSelectionView = [[bundle loadNibNamed:@"WMAlbumSelectionView"
                                                                               owner:self
                                                                             options:nil] firstObject];
     return albumSelectionView;
