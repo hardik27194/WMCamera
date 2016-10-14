@@ -56,9 +56,7 @@
 		B36809C71DAC83A50082206C /* ALAssetsGroup+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809691DAC83A50082206C /* ALAssetsGroup+Utils.m */; };
 		B36809C81DAC83A50082206C /* WMAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B368096D1DAC83A50082206C /* WMAbstractViewController.m */; };
 		B36809C91DAC83A50082206C /* WMAlbumsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809701DAC83A50082206C /* WMAlbumsController.m */; };
-		B36809CA1DAC83A50082206C /* WMAlbumsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809711DAC83A50082206C /* WMAlbumsController.xib */; };
 		B36809CB1DAC83A50082206C /* WMPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809731DAC83A50082206C /* WMPhotosController.m */; };
-		B36809CC1DAC83A50082206C /* WMCameraController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809751DAC83A50082206C /* WMCameraController.xib */; };
 		B36809CD1DAC83A50082206C /* WMCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809771DAC83A50082206C /* WMCameraViewController.m */; };
 		B36809CE1DAC83A50082206C /* WMImageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809791DAC83A50082206C /* WMImageEditViewController.m */; };
 		B36809CF1DAC83A50082206C /* WMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B368097B1DAC83A50082206C /* WMMainViewController.m */; };
@@ -67,29 +65,21 @@
 		B36809D31DAC83A50082206C /* WMAlbumUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809881DAC83A50082206C /* WMAlbumUtils.m */; };
 		B36809D41DAC83A50082206C /* WMImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B368098A1DAC83A50082206C /* WMImageUtils.m */; };
 		B36809D51DAC83A50082206C /* WMAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B368098E1DAC83A50082206C /* WMAlbumCell.m */; };
-		B36809D61DAC83A50082206C /* WMAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B368098F1DAC83A50082206C /* WMAlbumCell.xib */; };
 		B36809D71DAC83A50082206C /* WMAlbumSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809921DAC83A50082206C /* WMAlbumSelectionView.m */; };
-		B36809D81DAC83A50082206C /* WMAlbumSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809931DAC83A50082206C /* WMAlbumSelectionView.xib */; };
 		B36809D91DAC83A50082206C /* WMAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809961DAC83A50082206C /* WMAlbumView.m */; };
-		B36809DA1DAC83A50082206C /* WMAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809971DAC83A50082206C /* WMAlbumView.xib */; };
 		B36809DB1DAC83A50082206C /* WMCameraControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B368099A1DAC83A50082206C /* WMCameraControlView.m */; };
-		B36809DC1DAC83A50082206C /* WMCameraControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B368099B1DAC83A50082206C /* WMCameraControlView.xib */; };
 		B36809DD1DAC83A50082206C /* WMCircleMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = B368099E1DAC83A50082206C /* WMCircleMaskView.m */; };
 		B36809DE1DAC83A50082206C /* WMImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809A11DAC83A50082206C /* WMImageCollectionCell.m */; };
-		B36809DF1DAC83A50082206C /* WMImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809A21DAC83A50082206C /* WMImageCollectionCell.xib */; };
 		B36809E01DAC83A50082206C /* WMImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809A51DAC83A50082206C /* WMImageCropView.m */; };
 		B36809E11DAC83A50082206C /* WMImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809A81DAC83A50082206C /* WMImageViewCell.m */; };
-		B36809E21DAC83A50082206C /* WMImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809A91DAC83A50082206C /* WMImageViewCell.xib */; };
 		B36809E31DAC83A50082206C /* WMNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809AC1DAC83A50082206C /* WMNavigationBarView.m */; };
 		B36809E41DAC83A50082206C /* WMPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809AF1DAC83A50082206C /* WMPhotoCell.m */; };
-		B36809E51DAC83A50082206C /* WMPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809B01DAC83A50082206C /* WMPhotoCell.xib */; };
 		B36809E61DAC83A50082206C /* WMTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809B31DAC83A50082206C /* WMTabBarView.m */; };
-		B36809E71DAC83A50082206C /* WMTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809B41DAC83A50082206C /* WMTabBarView.xib */; };
 		B36809E81DAC83A50082206C /* WMWaterMarkCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809B71DAC83A50082206C /* WMWaterMarkCollectionView.m */; };
-		B36809E91DAC83A50082206C /* WMWaterMarkCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36809B81DAC83A50082206C /* WMWaterMarkCollectionView.xib */; };
 		B36809EA1DAC83A50082206C /* WMAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809BA1DAC83A50082206C /* WMAlbum.m */; };
 		B36809EB1DAC83A50082206C /* WMCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809BC1DAC83A50082206C /* WMCamera.m */; };
 		B36809EC1DAC83A50082206C /* WMKeyConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = B36809BF1DAC83A50082206C /* WMKeyConsts.m */; };
+		B3ABE99B1DB06FEA00349B4E /* WMCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B3ABE99A1DB06FEA00349B4E /* WMCamera.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,10 +141,8 @@
 		B368096D1DAC83A50082206C /* WMAbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAbstractViewController.m; sourceTree = "<group>"; };
 		B368096F1DAC83A50082206C /* WMAlbumsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumsController.h; sourceTree = "<group>"; };
 		B36809701DAC83A50082206C /* WMAlbumsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumsController.m; sourceTree = "<group>"; };
-		B36809711DAC83A50082206C /* WMAlbumsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumsController.xib; sourceTree = "<group>"; };
 		B36809721DAC83A50082206C /* WMPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPhotosController.h; sourceTree = "<group>"; };
 		B36809731DAC83A50082206C /* WMPhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPhotosController.m; sourceTree = "<group>"; };
-		B36809751DAC83A50082206C /* WMCameraController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMCameraController.xib; sourceTree = "<group>"; };
 		B36809761DAC83A50082206C /* WMCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCameraViewController.h; sourceTree = "<group>"; };
 		B36809771DAC83A50082206C /* WMCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCameraViewController.m; sourceTree = "<group>"; };
 		B36809781DAC83A50082206C /* WMImageEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageEditViewController.h; sourceTree = "<group>"; };
@@ -172,37 +160,28 @@
 		B368098A1DAC83A50082206C /* WMImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMImageUtils.m; sourceTree = "<group>"; };
 		B368098D1DAC83A50082206C /* WMAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumCell.h; sourceTree = "<group>"; };
 		B368098E1DAC83A50082206C /* WMAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumCell.m; sourceTree = "<group>"; };
-		B368098F1DAC83A50082206C /* WMAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumCell.xib; sourceTree = "<group>"; };
 		B36809911DAC83A50082206C /* WMAlbumSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumSelectionView.h; sourceTree = "<group>"; };
 		B36809921DAC83A50082206C /* WMAlbumSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumSelectionView.m; sourceTree = "<group>"; };
-		B36809931DAC83A50082206C /* WMAlbumSelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumSelectionView.xib; sourceTree = "<group>"; };
 		B36809951DAC83A50082206C /* WMAlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbumView.h; sourceTree = "<group>"; };
 		B36809961DAC83A50082206C /* WMAlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbumView.m; sourceTree = "<group>"; };
-		B36809971DAC83A50082206C /* WMAlbumView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMAlbumView.xib; sourceTree = "<group>"; };
 		B36809991DAC83A50082206C /* WMCameraControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCameraControlView.h; sourceTree = "<group>"; };
 		B368099A1DAC83A50082206C /* WMCameraControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCameraControlView.m; sourceTree = "<group>"; };
-		B368099B1DAC83A50082206C /* WMCameraControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMCameraControlView.xib; sourceTree = "<group>"; };
 		B368099D1DAC83A50082206C /* WMCircleMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCircleMaskView.h; sourceTree = "<group>"; };
 		B368099E1DAC83A50082206C /* WMCircleMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCircleMaskView.m; sourceTree = "<group>"; };
 		B36809A01DAC83A50082206C /* WMImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageCollectionCell.h; sourceTree = "<group>"; };
 		B36809A11DAC83A50082206C /* WMImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMImageCollectionCell.m; sourceTree = "<group>"; };
-		B36809A21DAC83A50082206C /* WMImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMImageCollectionCell.xib; sourceTree = "<group>"; };
 		B36809A41DAC83A50082206C /* WMImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageCropView.h; sourceTree = "<group>"; };
 		B36809A51DAC83A50082206C /* WMImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMImageCropView.m; sourceTree = "<group>"; };
 		B36809A71DAC83A50082206C /* WMImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMImageViewCell.h; sourceTree = "<group>"; };
 		B36809A81DAC83A50082206C /* WMImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMImageViewCell.m; sourceTree = "<group>"; };
-		B36809A91DAC83A50082206C /* WMImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMImageViewCell.xib; sourceTree = "<group>"; };
 		B36809AB1DAC83A50082206C /* WMNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNavigationBarView.h; sourceTree = "<group>"; };
 		B36809AC1DAC83A50082206C /* WMNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNavigationBarView.m; sourceTree = "<group>"; };
 		B36809AE1DAC83A50082206C /* WMPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPhotoCell.h; sourceTree = "<group>"; };
 		B36809AF1DAC83A50082206C /* WMPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPhotoCell.m; sourceTree = "<group>"; };
-		B36809B01DAC83A50082206C /* WMPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMPhotoCell.xib; sourceTree = "<group>"; };
 		B36809B21DAC83A50082206C /* WMTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTabBarView.h; sourceTree = "<group>"; };
 		B36809B31DAC83A50082206C /* WMTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTabBarView.m; sourceTree = "<group>"; };
-		B36809B41DAC83A50082206C /* WMTabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMTabBarView.xib; sourceTree = "<group>"; };
 		B36809B61DAC83A50082206C /* WMWaterMarkCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWaterMarkCollectionView.h; sourceTree = "<group>"; };
 		B36809B71DAC83A50082206C /* WMWaterMarkCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWaterMarkCollectionView.m; sourceTree = "<group>"; };
-		B36809B81DAC83A50082206C /* WMWaterMarkCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMWaterMarkCollectionView.xib; sourceTree = "<group>"; };
 		B36809B91DAC83A50082206C /* WMAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAlbum.h; sourceTree = "<group>"; };
 		B36809BA1DAC83A50082206C /* WMAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAlbum.m; sourceTree = "<group>"; };
 		B36809BB1DAC83A50082206C /* WMCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCamera.h; sourceTree = "<group>"; };
@@ -212,6 +191,7 @@
 		B36809C11DAC83A50082206C /* WMUIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUIMacros.h; sourceTree = "<group>"; };
 		B36809C31DAC83A50082206C /* WMOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMOptions.h; sourceTree = "<group>"; };
 		B36809C51DAC83A50082206C /* WMTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTypes.h; sourceTree = "<group>"; };
+		B3ABE99A1DB06FEA00349B4E /* WMCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMCamera.bundle; sourceTree = "<group>"; };
 		FCE84CA92383DE535361B55C /* Pods-WMCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-WMCamera/Pods-WMCamera.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -344,7 +324,6 @@
 			children = (
 				B368096F1DAC83A50082206C /* WMAlbumsController.h */,
 				B36809701DAC83A50082206C /* WMAlbumsController.m */,
-				B36809711DAC83A50082206C /* WMAlbumsController.xib */,
 				B36809721DAC83A50082206C /* WMPhotosController.h */,
 				B36809731DAC83A50082206C /* WMPhotosController.m */,
 			);
@@ -354,7 +333,6 @@
 		B36809741DAC83A50082206C /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				B36809751DAC83A50082206C /* WMCameraController.xib */,
 				B36809761DAC83A50082206C /* WMCameraViewController.h */,
 				B36809771DAC83A50082206C /* WMCameraViewController.m */,
 				B36809781DAC83A50082206C /* WMImageEditViewController.h */,
@@ -388,6 +366,7 @@
 			isa = PBXGroup;
 			children = (
 				B36809841DAC83A50082206C /* images */,
+				B3ABE99A1DB06FEA00349B4E /* WMCamera.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -472,7 +451,6 @@
 			children = (
 				B368098D1DAC83A50082206C /* WMAlbumCell.h */,
 				B368098E1DAC83A50082206C /* WMAlbumCell.m */,
-				B368098F1DAC83A50082206C /* WMAlbumCell.xib */,
 			);
 			path = WMAlbumCell;
 			sourceTree = "<group>";
@@ -482,7 +460,6 @@
 			children = (
 				B36809911DAC83A50082206C /* WMAlbumSelectionView.h */,
 				B36809921DAC83A50082206C /* WMAlbumSelectionView.m */,
-				B36809931DAC83A50082206C /* WMAlbumSelectionView.xib */,
 			);
 			path = WMAlbumSelectionView;
 			sourceTree = "<group>";
@@ -492,7 +469,6 @@
 			children = (
 				B36809951DAC83A50082206C /* WMAlbumView.h */,
 				B36809961DAC83A50082206C /* WMAlbumView.m */,
-				B36809971DAC83A50082206C /* WMAlbumView.xib */,
 			);
 			path = WMAlbumView;
 			sourceTree = "<group>";
@@ -502,7 +478,6 @@
 			children = (
 				B36809991DAC83A50082206C /* WMCameraControlView.h */,
 				B368099A1DAC83A50082206C /* WMCameraControlView.m */,
-				B368099B1DAC83A50082206C /* WMCameraControlView.xib */,
 			);
 			path = WMCameraControlView;
 			sourceTree = "<group>";
@@ -521,7 +496,6 @@
 			children = (
 				B36809A01DAC83A50082206C /* WMImageCollectionCell.h */,
 				B36809A11DAC83A50082206C /* WMImageCollectionCell.m */,
-				B36809A21DAC83A50082206C /* WMImageCollectionCell.xib */,
 			);
 			path = WMImageCollectionCell;
 			sourceTree = "<group>";
@@ -540,7 +514,6 @@
 			children = (
 				B36809A71DAC83A50082206C /* WMImageViewCell.h */,
 				B36809A81DAC83A50082206C /* WMImageViewCell.m */,
-				B36809A91DAC83A50082206C /* WMImageViewCell.xib */,
 			);
 			path = WMImageViewCell;
 			sourceTree = "<group>";
@@ -559,7 +532,6 @@
 			children = (
 				B36809AE1DAC83A50082206C /* WMPhotoCell.h */,
 				B36809AF1DAC83A50082206C /* WMPhotoCell.m */,
-				B36809B01DAC83A50082206C /* WMPhotoCell.xib */,
 			);
 			path = WMPhotoCell;
 			sourceTree = "<group>";
@@ -569,7 +541,6 @@
 			children = (
 				B36809B21DAC83A50082206C /* WMTabBarView.h */,
 				B36809B31DAC83A50082206C /* WMTabBarView.m */,
-				B36809B41DAC83A50082206C /* WMTabBarView.xib */,
 			);
 			path = WMTabBarView;
 			sourceTree = "<group>";
@@ -579,7 +550,6 @@
 			children = (
 				B36809B61DAC83A50082206C /* WMWaterMarkCollectionView.h */,
 				B36809B71DAC83A50082206C /* WMWaterMarkCollectionView.m */,
-				B36809B81DAC83A50082206C /* WMWaterMarkCollectionView.xib */,
 			);
 			path = WMWaterMarkCollectionView;
 			sourceTree = "<group>";
@@ -684,10 +654,8 @@
 				B32196F61DAE12DE00C7B5D3 /* btn_close_camera_normal@3x.png in Resources */,
 				B368095D1DAC80890082206C /* LaunchScreen.storyboard in Resources */,
 				B32196F91DAE12DE00C7B5D3 /* btn_flash_close_normal@2x.png in Resources */,
-				B36809E91DAC83A50082206C /* WMWaterMarkCollectionView.xib in Resources */,
 				B33FBF9B1DAE0D3400650DD1 /* WMImages.xcassets in Resources */,
 				B321970B1DAE12DE00C7B5D3 /* ic_wm_followme@3x.png in Resources */,
-				B36809E51DAC83A50082206C /* WMPhotoCell.xib in Resources */,
 				B32197121DAE12DE00C7B5D3 /* img_wm_followme.png in Resources */,
 				B32196F41DAE12DE00C7B5D3 /* btn_back_camera_normal@3x.png in Resources */,
 				B32197111DAE12DE00C7B5D3 /* ic_wm_wakeup@3x.png in Resources */,
@@ -702,22 +670,16 @@
 				B321970A1DAE12DE00C7B5D3 /* ic_wm_followme@2x.png in Resources */,
 				B32196FC1DAE12DE00C7B5D3 /* btn_flash_open_normal@3x.png in Resources */,
 				B36809581DAC80890082206C /* Main.storyboard in Resources */,
-				B36809DF1DAC83A50082206C /* WMImageCollectionCell.xib in Resources */,
+				B3ABE99B1DB06FEA00349B4E /* WMCamera.bundle in Resources */,
 				B32197161DAE12DE00C7B5D3 /* vLine@2x.png in Resources */,
 				B32197151DAE12DE00C7B5D3 /* img_wm_wakeup.png in Resources */,
 				B32197141DAE12DE00C7B5D3 /* img_wm_runyourself.png in Resources */,
-				B36809DA1DAC83A50082206C /* WMAlbumView.xib in Resources */,
 				B32197071DAE12DE00C7B5D3 /* ic_empty_watermark@3x.png in Resources */,
-				B36809CC1DAC83A50082206C /* WMCameraController.xib in Resources */,
 				B32197051DAE12DE00C7B5D3 /* ic_add_watermark@3x.png in Resources */,
-				B36809E21DAC83A50082206C /* WMImageViewCell.xib in Resources */,
 				B32197001DAE12DE00C7B5D3 /* btn_takePhoto_normal@3x.png in Resources */,
-				B36809E71DAC83A50082206C /* WMTabBarView.xib in Resources */,
 				B32197031DAE12DE00C7B5D3 /* history_title_down_icon.pdf in Resources */,
 				B32197081DAE12DE00C7B5D3 /* ic_selected_rectangle@2x.png in Resources */,
-				B36809CA1DAC83A50082206C /* WMAlbumsController.xib in Resources */,
 				B32197011DAE12DE00C7B5D3 /* btn_takePhoto_pressed@2x.png in Resources */,
-				B36809D61DAC83A50082206C /* WMAlbumCell.xib in Resources */,
 				B321970F1DAE12DE00C7B5D3 /* ic_wm_runyourself@3x.png in Resources */,
 				B321970C1DAE12DE00C7B5D3 /* ic_wm_gooutrun@2x.png in Resources */,
 				B32197101DAE12DE00C7B5D3 /* ic_wm_wakeup@2x.png in Resources */,
@@ -726,10 +688,8 @@
 				B32197171DAE12DE00C7B5D3 /* vLine@3x.png in Resources */,
 				B32196FB1DAE12DE00C7B5D3 /* btn_flash_open_normal@2x.png in Resources */,
 				B32197041DAE12DE00C7B5D3 /* ic_add_watermark@2x.png in Resources */,
-				B36809DC1DAC83A50082206C /* WMCameraControlView.xib in Resources */,
 				B32196F31DAE12DE00C7B5D3 /* btn_back_camera_normal@2x.png in Resources */,
 				B32196FA1DAE12DE00C7B5D3 /* btn_flash_close_normal@3x.png in Resources */,
-				B36809D81DAC83A50082206C /* WMAlbumSelectionView.xib in Resources */,
 				B32197021DAE12DE00C7B5D3 /* btn_takePhoto_pressed@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

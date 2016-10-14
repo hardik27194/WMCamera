@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "WMCamera/WMCamera/Classes/**/*.{png,xib}"
+  s.resources = "WMCamera/WMCamera/Classes/**/*.{png,pdf}", "WMCamera/WMCamera/Classes/Resources/WMCamera.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
