@@ -133,7 +133,9 @@
 - (UIButton *)btnPresent {
     if(!_btnPresent) {
         _btnPresent = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_btnPresent setImage:[UIImage imageNamed:@"btn_present_normal"]
+        
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        [_btnPresent setImage:[UIImage imageNamed:@"btn_present_normal" inBundle:bundle compatibleWithTraitCollection:nil]
                      forState:UIControlStateNormal];
         [_btnPresent addTarget:self
                         action:@selector(presentChangeAction:)
@@ -189,9 +191,11 @@
         UIButton *leftBtn         = [UIButton buttonWithType:UIButtonTypeCustom];
         leftBtn.bounds            = CGRectMake(0.0, 0.0, 60.0, 40.0);
         leftBtn.contentEdgeInsets = UIEdgeInsetsMake(0.0, -30.0, 0.0, 0.0);
-        [leftBtn setImage:[UIImage imageNamed:@"btn_close_camera_normal"]
+        
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        [leftBtn setImage:[UIImage imageNamed:@"btn_close_camera_normal" inBundle:bundle compatibleWithTraitCollection:nil]
                  forState:UIControlStateNormal];
-        [leftBtn setImage:[UIImage imageNamed:@"btn_close_camera_pressed"]
+        [leftBtn setImage:[UIImage imageNamed:@"btn_close_camera_pressed" inBundle:bundle compatibleWithTraitCollection:nil]
                  forState:UIControlStateHighlighted];
         [leftBtn addTarget:self
                     action:@selector(closeAction:)
@@ -296,19 +300,20 @@
 }
 
 - (void)refreshFlashMode {
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     switch (_stillCamera.inputCamera.flashMode) {
         case AVCaptureFlashModeOff: {
-            [self.btnFlash setImage:[UIImage imageNamed:@"btn_flash_close_normal"]
+            [self.btnFlash setImage:[UIImage imageNamed:@"btn_flash_close_normal" inBundle:bundle compatibleWithTraitCollection:nil]
                            forState:UIControlStateNormal];
             break;
         }
         case AVCaptureFlashModeOn: {
-            [self.btnFlash setImage:[UIImage imageNamed:@"btn_flash_open_normal"]
+            [self.btnFlash setImage:[UIImage imageNamed:@"btn_flash_open_normal" inBundle:bundle compatibleWithTraitCollection:nil]
                            forState:UIControlStateNormal];
             break;
         }
         case AVCaptureFlashModeAuto: {
-            [self.btnFlash setImage:[UIImage imageNamed:@"btn_flash_auto_normal"]
+            [self.btnFlash setImage:[UIImage imageNamed:@"btn_flash_auto_normal" inBundle:bundle compatibleWithTraitCollection:nil]
                            forState:UIControlStateNormal];
             break;
         }

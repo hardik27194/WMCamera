@@ -64,7 +64,8 @@ NSString * const kWatermarkCollectionCellId     = @"WMImageCollectionCell";
     [cell setImageContentFillMode:UIViewContentModeScaleAspectFit];
     
     if(indexPath.row == 0) {
-        [cell setImage:[UIImage imageNamed:@"ic_empty_watermark"]];
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        [cell setImage:[UIImage imageNamed:@"ic_empty_watermark" inBundle:bundle compatibleWithTraitCollection:nil]];
     }
     else if(indexPath.row - 1 < self.watermarks.count) {
         id<WMWatermarkProtocol> watermark = self.watermarks[indexPath.row - 1];

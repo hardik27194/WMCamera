@@ -13,27 +13,28 @@
 
 + (NSArray *)defaultWatermarks {
     // 以下这些坐标信息是根据设计图(设计图就是相对1080x1080的母图设计的)取出来的
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     WMWaterMark *waterMark1   = [[WMWaterMark alloc] init];
-    waterMark1.previewImage   = [UIImage imageNamed:@"ic_wm_gooutrun"];
-    waterMark1.watermarkImage = [UIImage imageNamed:@"img_wm_gooutrun"];
+    waterMark1.previewImage   = [UIImage imageNamed:@"ic_wm_gooutrun" inBundle:bundle compatibleWithTraitCollection:nil];
+    waterMark1.watermarkImage = [UIImage imageNamed:@"img_wm_gooutrun" inBundle:bundle compatibleWithTraitCollection:nil];
     waterMark1.top            = 828.0f / kDefaultCropPhotoWidth;
     waterMark1.left           = 350.0f / kDefaultCropPhotoWidth;
 
     WMWaterMark *waterMark2   = [[WMWaterMark alloc] init];
-    waterMark2.previewImage   = [UIImage imageNamed:@"ic_wm_wakeup"];
-    waterMark2.watermarkImage = [UIImage imageNamed:@"img_wm_wakeup"];
+    waterMark2.previewImage   = [UIImage imageNamed:@"ic_wm_wakeup" inBundle:bundle compatibleWithTraitCollection:nil];
+    waterMark2.watermarkImage = [UIImage imageNamed:@"img_wm_wakeup" inBundle:bundle compatibleWithTraitCollection:nil];
     waterMark2.top            = 808.0 / kDefaultCropPhotoWidth;
     waterMark2.left           = 201.0 / kDefaultCropPhotoWidth;
 
     WMWaterMark *waterMark3   = [[WMWaterMark alloc] init];
-    waterMark3.previewImage   = [UIImage imageNamed:@"ic_wm_followme"];
-    waterMark3.watermarkImage = [UIImage imageNamed:@"img_wm_followme"];
+    waterMark3.previewImage   = [UIImage imageNamed:@"ic_wm_followme" inBundle:bundle compatibleWithTraitCollection:nil];
+    waterMark3.watermarkImage = [UIImage imageNamed:@"img_wm_followme" inBundle:bundle compatibleWithTraitCollection:nil];
     waterMark3.top            = 780.0 / kDefaultCropPhotoWidth;
     waterMark3.left           = 225.0 / kDefaultCropPhotoWidth;
 
     WMWaterMark *waterMark4   = [[WMWaterMark alloc] init];
-    waterMark4.previewImage   = [UIImage imageNamed:@"ic_wm_runyourself"];
-    waterMark4.watermarkImage = [UIImage imageNamed:@"img_wm_runyourself"];
+    waterMark4.previewImage   = [UIImage imageNamed:@"ic_wm_runyourself" inBundle:bundle compatibleWithTraitCollection:nil];
+    waterMark4.watermarkImage = [UIImage imageNamed:@"img_wm_runyourself" inBundle:bundle compatibleWithTraitCollection:nil];
     waterMark4.top            = 692.0 / kDefaultCropPhotoWidth;
     waterMark4.left           = 87.0 / kDefaultCropPhotoWidth;
 

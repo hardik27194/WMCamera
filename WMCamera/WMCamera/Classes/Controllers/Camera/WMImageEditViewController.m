@@ -60,7 +60,10 @@
         UIButton *leftBtn         = [UIButton buttonWithType:UIButtonTypeCustom];
         leftBtn.bounds            = CGRectMake(0.0, 0.0, 60.0, 40.0);
         leftBtn.contentEdgeInsets = UIEdgeInsetsMake(0.0, -30.0, 0.0, 0.0);
-        [leftBtn setImage:[UIImage imageNamed:@"btn_back_camera_normal"]
+        
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        UIImage *image = [UIImage imageNamed:@"btn_back_camera_normal" inBundle:bundle compatibleWithTraitCollection:nil];
+        [leftBtn setImage:image
                  forState:UIControlStateNormal];
         [leftBtn addTarget:self
                     action:@selector(backAction:)

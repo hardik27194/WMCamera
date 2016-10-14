@@ -151,9 +151,11 @@ static CGFloat      kInset                  = 1.0;
         UIButton *leftBtn         = [UIButton buttonWithType:UIButtonTypeCustom];
         leftBtn.bounds            = CGRectMake(0.0, 0.0, 60.0, 40.0);
         leftBtn.contentEdgeInsets = UIEdgeInsetsMake(0.0, -30.0, 0.0, 0.0);
-        [leftBtn setImage:[UIImage imageNamed:@"btn_close_camera_normal"]
+        
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        [leftBtn setImage:[UIImage imageNamed:@"btn_close_camera_normal" inBundle:bundle compatibleWithTraitCollection:nil]
                  forState:UIControlStateNormal];
-        [leftBtn setImage:[UIImage imageNamed:@"btn_close_camera_pressed"]
+        [leftBtn setImage:[UIImage imageNamed:@"btn_close_camera_pressed" inBundle:bundle compatibleWithTraitCollection:nil]
                  forState:UIControlStateHighlighted];
         [leftBtn addTarget:self
                     action:@selector(closeAction:)

@@ -19,7 +19,8 @@
     static UIImage *selectedBackgroundImage;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        selectedBackgroundImage = [UIImage imageNamed:@"ic_selected_rectangle"];
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        selectedBackgroundImage = [UIImage imageNamed:@"ic_selected_rectangle" inBundle:bundle compatibleWithTraitCollection:nil];
     });
     
     return selectedBackgroundImage;
